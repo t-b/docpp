@@ -1,0 +1,136 @@
+# DOC++ makefile for Win32
+#
+# $Id: makefile.w32,v 1.3 2002/09/05 13:23:05 adragos Exp $
+#
+# Tested with Borland make ver. 3.7 with the -N option
+# and Microsoft nmake ver. 6.00
+#
+# Dan Fandrich <dan@fch.wimsey.bc.ca>
+#
+
+# Borland C++ ver. 4.5
+# CC=bcc32
+# This line doesn't work with BC 5.2
+# CFLAGS=-DWIN32 -Dbool=char -Dtrue=1 -Dfalse=0 -P -ls -w- -I.
+# This works:
+# CFLAGS=-DWIN32 -P -ls -w- -I.
+
+# Visual C++ ver. 12.00
+CC=cl
+CFLAGS=/DWIN32 /D__VISUALC__ /TC /I. /D__STDC__=1 /O2 /Ob2
+CCFLAGS=/DWIN32 /D__VISUALC__ /TP /I. /D__STDC__=1 /O2 /Ob2
+
+# Watcom C++ (UNTESTED)
+#CC=wcl32
+#CFLAGS=-DWIN32 -I.
+# This line will be necessary for Watcom C++ ver. <= 10.6
+#CFLAGS=-DWIN32 -Dbool=char -Dtrue=1 -Dfalse=0 -I.
+
+
+all: docxx.exe docify.exe promote.exe
+
+
+# Implicit rules
+
+.obj.exe:
+	$(CC) $**
+
+.c.obj:
+	$(CC) $(CFLAGS) -c $<
+
+.cc.obj:
+	$(CC) $(CCFLAGS) -c $<
+
+.ll.cc:
+	flex -P$*YY -o$*.cc $<
+
+
+# Targets
+
+docify.exe: docify.obj
+
+promote.exe: promote.obj
+
+docxx.exe: main.obj classgraph.obj Entry.obj html.obj McDirectory.obj McHashTable.obj McWildMatch.obj nametable.obj tex2gif.obj getopt.obj getopt1.obj comment.obj config.obj cpp.obj doc.obj doc2db.obj doc2html.obj doc2tex.obj java.obj readfiles.obj php.obj
+	$(CC) @<<
+	$**
+<<
+	copy main.exe docxx.exe
+	del main.exe
+
+clean:
+    del *.obj
+    del *.exe
+    del comment.cc
+    del config.cc
+    del cpp.cc
+    del doc.cc
+    del doc2db.cc
+    del doc2html.cc
+    del doc2tex.cc
+    del docify.cc
+    del java.cc
+    del promote.cc
+    del readfile.cc
+    del readfiles.cc
+
+# Exceptions to implicit rules
+
+comment.cc: comment.ll unistd.h
+	flex -PcommentYY -ocomment.cc comment.ll
+
+config.cc: config.ll unistd.h
+	flex -PconfigYY -oconfig.cc config.ll
+
+doc2db.cc: doc2db.ll unistd.h
+	flex -Pdoc2dbYY -odoc2db.cc doc2db.ll
+
+doc2html.cc: doc2html.ll unistd.h
+	flex -Pdoc2htmlYY -odoc2html.cc doc2html.ll
+
+promote.cc: promote.ll unistd.h
+	flex -opromote.cc promote.ll
+
+docify.cc: docify.ll unistd.h
+	flex -odocify.cc docify.ll
+
+readfiles.cc: readfiles.ll unistd.h
+    rem This hack is in case flex doesn't understand long file names
+	copy readfiles.ll readfile.ll
+	flex -PreadfilesYY -oreadfile.cc readfile.ll
+	copy readfile.cc readfiles.cc
+	del readfile.ll
+
+unistd.h: unistd.h.w32
+    copy unistd.h.w32 unistd.h
+
+config.h: config.h.w32
+    copy config.h.w32 config.h
+
+
+# Dependencies
+
+# Force config.h to be generated
+main.obj: main.cc config.h
+
+
+# The following dependencies are for NMAKE, which isn't smart enough to
+# figure them out on its own
+
+.SUFFIXES: .ll .cc
+
+comment.cc: comment.ll
+
+cpp.cc: cpp.ll
+
+doc.cc: doc.ll
+
+doc2tex.cc: doc2tex.ll
+
+java.cc: java.ll
+
+php.cc: php.ll
+
+# There should really be header dependencies on all the source files
+# in this makefile as well, but it must be automated or they'll quickly
+# become out of date.

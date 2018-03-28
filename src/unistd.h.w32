@@ -1,0 +1,2 @@
+// Satisfy flex generated code under Win32 
+#include <io.h>

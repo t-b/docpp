@@ -1,0 +1,793 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DOC++ 3.4.8\n"
+"POT-Creation-Date: 2002-12-22 18:08+0200\n"
+"PO-Revision-Date: 2001-12-26 22:30:00 PM EEST\n"
+"Last-Translator: Dragos Acostachioaie <dragos@biosfarm.ro>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Entry.cc:102
+msgid "No file"
+msgstr "Nici un fiºier"
+
+#: src/Entry.cc:395
+#, c-format
+msgid "Make full name from `%s'\n"
+msgstr "Construiesc numele plecând de la `%s'\n"
+
+#: src/Entry.cc:1089
+#, c-format
+msgid "Warning: `%s %s%s' already have documentation, merging\n"
+msgstr "Atentie: `%s %s%s' are deja documentatie, cumulez\n"
+
+#: src/Entry.cc:1156
+#, fuzzy, c-format
+msgid "Warning: no parent `%s' for `%s %s%s' found\n"
+msgstr "Atentie: nume ciudat `%s' pentru `%s %s'\n"
+
+#: src/Entry.cc:1350
+#, c-format
+msgid "`%s' found in namespace `%s'!\n"
+msgstr "Am gãsit `%s' în namespace-ul `%s'!\n"
+
+#: src/McDirectory.cc:51
+#, c-format
+msgid "No files matching `%s' found\n"
+msgstr "Nu am gãsit nici un fiºier potrivit cu `%s'\n"
+
+#: src/McDirectory.cc:99
+#, c-format
+msgid "Can't open `%s' dir\n"
+msgstr "Nu pot deschide directorul `%s'\n"
+
+#: src/equate.cc:49
+#, c-format
+msgid "equate %s, generate GIFs of equations from GIF database file\n"
+msgstr ""
+"equate %s, genereazã GIF-uri cu ecuaþii plecând de la baza de date GIF\n"
+
+#: src/equate.cc:51
+msgid ""
+"Usage: equate [options] [gifdb_file]\n"
+"\n"
+msgstr ""
+"Utilizare: equate [opþiuni] [fiºier_gifdb]\n"
+"\n"
+
+#: src/equate.cc:52 src/main.cc:54
+msgid "Options:\n"
+msgstr "Opþiuni:\n"
+
+#: src/equate.cc:53 src/main.cc:84
+msgid "  -d  --dir DIR          use DIR for the output directory\n"
+msgstr "  -d  --dir DIR          utilizeazã DIR pentru directorul de ieºire\n"
+
+#: src/equate.cc:54
+#, fuzzy
+msgid "  -f  --file FILE        read FILE instead of gif.db as GIF database\n"
+msgstr ""
+"  -f  --file FILE       citeºte FILE în loc de gif.db ca baza de date GIF\n"
+
+#: src/equate.cc:55
+msgid ""
+"                         (relative to . or DIR)\n"
+"\n"
+msgstr ""
+"                         (relativ la DIR)\n"
+"\n"
+
+#: src/equate.cc:56 src/main.cc:115
+msgid ""
+"Mail bug reports and suggestions to <docpp-users@lists.sourceforge.net>\n"
+msgstr ""
+"Trimiteþi raportãri de erori ºi sugestii la <docpp-users@lists.sourceforge."
+"net>\n"
+
+#: src/equate.cc:61 src/main.cc:120
+#, c-format
+msgid "Ignoring option `%s': required argument missing\n"
+msgstr "Ignor optiunea `%s': lipseºte argumentul necesar\n"
+
+#: src/html.cc:102
+#, fuzzy
+msgid "   <TITLE>Table of Contents</TITLE>\n"
+msgstr ""
+"\n"
+"<H1>Cuprins</H1>\n"
+
+#: src/html.cc:111
+#, fuzzy
+msgid "   <TITLE>Hierarchy of Classes</TITLE>\n"
+msgstr "<H1>Ierarhia de clase</H1>\n"
+
+#: src/html.cc:119
+msgid ""
+"<HEAD>\n"
+"   <TITLE>General Bits</TITLE>\n"
+msgstr ""
+
+#: src/html.cc:137
+#, fuzzy
+msgid "\">Hierarchy of classes</A></I></P>"
+msgstr "\">Ierarhia de clase</A></I><P>"
+
+#: src/html.cc:142
+#, fuzzy
+msgid "\">Alphabetic index</A></I></P>"
+msgstr "\">Index alfabetic</A></I><P>"
+
+#: src/html.cc:146 src/html.cc:157
+#, fuzzy
+msgid "\">Alphabetic index</A></I>"
+msgstr "\">Index alfabetic</A></I>"
+
+#: src/html.cc:151
+#, fuzzy
+msgid "\">Hierarchy of classes</A></I>"
+msgstr "\">Ierarhia de clase</A></I><P>"
+
+#: src/html.cc:162
+msgid "\">HTML hierarchy of classes</A>"
+msgstr "\">Ierarhia de clase format HTML</A>"
+
+#: src/html.cc:163
+msgid " or <A HREF=\"HIERjava"
+msgstr " sau <A HREF=\"HIERjava"
+
+#: src/html.cc:211
+#, c-format
+msgid "Warning: weird file name `%s'\n"
+msgstr "Atenþie: nume ciudat de fiºier `%s'\n"
+
+#: src/html.cc:267
+#, fuzzy
+msgid ""
+"This page was generated with the help of <A HREF=\"http://docpp.sourceforge."
+"net\">DOC++</A>.\n"
+msgstr ""
+"Aceastã paginã a fost generatã cu ajutorul <A HREF=\"http://www."
+"linuxsupportline.com/~doc++\">DOC++</A>.\n"
+
+#: src/html.cc:614
+msgid "<H1>Hierarchy of Classes</H1>\n"
+msgstr "<H1>Ierarhia de clase</H1>\n"
+
+#: src/html.cc:1072
+msgid ""
+"\n"
+"<H1>Table of Contents</H1>\n"
+msgstr ""
+"\n"
+"<H1>Cuprins</H1>\n"
+
+#: src/html.cc:1117
+msgid "<H1>Hierarchy of classes</H1>\n"
+msgstr "<H1>Ierarhia de clase</H1>\n"
+
+#: src/html.cc:1121
+#, c-format
+msgid "<I><A HREF=\"index%s\"> alphabetic index</A></I><P>"
+msgstr "<I><A HREF=\"index%s\"> index alfabetic</A></I><P>"
+
+#: src/html.cc:1156
+#, c-format
+msgid "Member `%s' was there\n"
+msgstr "Membrul `%s' a fost aici\n"
+
+#: src/html.cc:1173
+msgid "<DT><H3>Public Fields</H3><DD>"
+msgstr "Câmpuri publice"
+
+#: src/html.cc:1174
+msgid "<DT><H3>Public Methods</H3><DD>"
+msgstr "Metode publice"
+
+#: src/html.cc:1175
+msgid "<DT><H3>Public Members</H3><DD>"
+msgstr "Membri publici"
+
+#: src/html.cc:1176
+msgid "<DT><H3>Protected Fields</H3><DD>"
+msgstr "Câmpuri protejate"
+
+#: src/html.cc:1177
+msgid "<DT><H3>Protected Methods</H3><DD>"
+msgstr "<DT><H3>Metode protejate</H3><DD>"
+
+#: src/html.cc:1178
+msgid "<DT><H3>Protected Members</H3><DD>"
+msgstr "Membri protejaþi"
+
+#: src/html.cc:1179
+msgid "<DT><H3>Private Fields</H3><DD>"
+msgstr "<DT><H3>Câmpuri private</H3><DD>"
+
+#: src/html.cc:1180
+msgid "<DT><H3>Private Methods</H3><DD>"
+msgstr "<DT><H3>Metode private</H3><DD>"
+
+#: src/html.cc:1181
+msgid "<DT><H3>Private Members</H3><DD>"
+msgstr "<DT><H3>Membri privaþi</H3><DD>"
+
+#: src/html.cc:1240 src/html.cc:1634
+#, c-format
+msgid "<HR><H3>Inherited from <A HREF=\"%s\">%s</A>:</H3>\n"
+msgstr "<HR><H3>Moºtenit de la <A HREF=\"%s\">%s</A>:</H3>\n"
+
+#: src/html.cc:1278
+msgid "<DT><B>Throws:</B><DD>"
+msgstr "<DT><B>Throws:</B><DD>"
+
+#: src/html.cc:1299
+msgid "<DT><B>Parameters:</B><DD>"
+msgstr "<DT><B>Parametri:</B><DD>"
+
+#: src/html.cc:1318
+#, fuzzy
+msgid "<DT><B>Fields:</B><DD>"
+msgstr "<DT><B>Câmpuri:</B><DD>"
+
+#: src/html.cc:1335
+msgid "Returns"
+msgstr "Returneazã"
+
+#: src/html.cc:1336
+msgid "Preconditions"
+msgstr "Precondiþii"
+
+#: src/html.cc:1337
+msgid "Postconditions"
+msgstr "Postcondiþii"
+
+#: src/html.cc:1338
+msgid "Friends"
+msgstr "Prieteni"
+
+#: src/html.cc:1341
+#, c-format
+msgid "<DT><B>Author:</B><DD>%s\n"
+msgstr "<DT><B>Autor:</B><DD>%s\n"
+
+#: src/html.cc:1344
+#, c-format
+msgid "<DT><B>Version:</B><DD>%s\n"
+msgstr "<DT><B>Versiune:</B><DD>%s\n"
+
+#: src/html.cc:1347
+#, fuzzy, c-format
+msgid "<DT><B><I>Deprecated:</I></B><DD>%s\n"
+msgstr "<DT><B>Depreciat:</B><DD>%s\n"
+
+#: src/html.cc:1350
+#, fuzzy, c-format
+msgid "<DT><B>Since:</B><DD>%s\n"
+msgstr "<DT><B>Incepând cu:</B><DD>%s\n"
+
+#: src/html.cc:1354
+msgid "<DT><B>See Also:</B><DD>"
+msgstr "<DT><B>Vezi ºi:</B><DD>"
+
+#: src/html.cc:1476
+#, c-format
+msgid "In file %s:"
+msgstr "In fisierul %s:"
+
+#: src/html.cc:1481
+#, c-format
+msgid "<H2>Package %s</H2>"
+msgstr "<H2>Pachetul %s</H2>"
+
+#: src/html.cc:1575
+#, c-format
+msgid "Writing page for `%s %s%s'\n"
+msgstr "Scriu pagina pentru `%s %s%s'\n"
+
+#: src/html.cc:1585 src/html.cc:1644
+msgid ""
+"<HR>\n"
+"<H2>Documentation</H2>\n"
+msgstr ""
+"<HR>\n"
+"<H2>Documentaþie</H2>\n"
+
+#: src/html.cc:1604
+msgid ""
+"<HR>\n"
+"\n"
+"<H2>Inheritance:</H2>\n"
+msgstr ""
+"<HR>\n"
+"\n"
+"<H2>Moºtenire:</H2>\n"
+
+#: src/html.cc:1660
+msgid ""
+"<HR>\n"
+"<DL><DT><B>Direct child classes:\n"
+"</B><DD>"
+msgstr ""
+"<HR>\n"
+"<DL><DT><B>Clase copil directe:\n"
+"</B><DD>"
+
+#: src/html.cc:1673
+msgid ""
+"\n"
+"<HR><DL><DT><B>This class has no child classes.</B></DL>\n"
+"\n"
+msgstr ""
+"\n"
+"<HR><DL><DT><B>Aceastã clasã nu are clase copil.</B></DL>\n"
+"\n"
+
+#: src/html.cc:1694
+#, c-format
+msgid "Opening `%s' to write\n"
+msgstr "Deschid `%s' pentru scriere\n"
+
+#: src/html.cc:1698
+#, c-format
+msgid "Cannot open `%s'\n"
+msgstr "Nu pot deschide `%s'\n"
+
+#: src/html.cc:1748
+msgid "Making name from type for:\n"
+msgstr "Construiesc numele pornind de la tip pentru:\n"
+
+#: src/html.cc:1776
+#, c-format
+msgid "Copied `%s %s%s' into `%s'\n"
+msgstr "Am copiat `%s %s%s' în `%s'\n"
+
+#: src/html.cc:1802
+#, fuzzy, c-format
+msgid "Warning: `%s %s%s' hanging from root with no page\n"
+msgstr "Atenþie: `%s %s%s' atârnã din rãdãcinã fãrã sã aibã paginã\n"
+
+#: src/html.cc:1888
+#, c-format
+msgid "Writing sub for `%s %s%s' to file `%s'\n"
+msgstr "Scriu sub-intrãrile pentru `%s %s%s' în fiºierul `%s'\n"
+
+#: src/html.cc:1944
+#, c-format
+msgid "Writing `%s %s%s' to file `%s'\n"
+msgstr "Scriu `%s %s%s' în fiºierul `%s'\n"
+
+#: src/html.cc:1957
+#, fuzzy, c-format
+msgid "Warning: weird filename `%s' for `%s %s%s'\n"
+msgstr "Atentie: nume ciudat `%s' pentru `%s %s'\n"
+
+#: src/html.cc:1965
+#, c-format
+msgid "Cannot open `%s' for writing\n"
+msgstr "Nu pot deschide `%s' pentru scriere\n"
+
+#: src/html.cc:2088
+#, fuzzy, c-format
+msgid "`%s' directory already exists\n"
+msgstr "Fiºierul `%s' existã deja\n"
+
+#: src/html.cc:2093
+#, c-format
+msgid "Could not create `%s' directory\n"
+msgstr "Nu pot crea directorul `%s'\n"
+
+#: src/html.cc:2124
+msgid "Converting DOC++ to HTML...\n"
+msgstr "Convertesc DOC++ în HTML...\n"
+
+#: src/html.cc:2139
+#, c-format
+msgid "Warning: Can't open `%s', producing no footer.\n"
+msgstr "Atenþie: Nu pot deschide `%s', nu produc subsol de paginã.\n"
+
+#: src/html.cc:2153
+#, c-format
+msgid "Warning: Can't open `%s', producing no header.\n"
+msgstr "Atenþie: Nu pot deschide `%s', nu produc cap de paginã.\n"
+
+#: src/html.cc:2164
+msgid "Writing files...\n"
+msgstr "Scriu fiºierele...\n"
+
+#: src/html.cc:2182
+msgid "Writing TOC...\n"
+msgstr "Scriu cuprinsul...\n"
+
+#: src/html.cc:2198
+msgid "Writing Class Hierarchy...\n"
+msgstr "Scriu ierarhia de clase...\n"
+
+#: src/main.cc:50
+#, c-format
+msgid "DOC++ %s, a documentation system for C, C++, IDL and Java\n"
+msgstr "DOC++ %s, un sistem de documentare pentru C, C++, IDL ºi Java\n"
+
+#: src/main.cc:52
+msgid ""
+"Usage: doc++ [options] [files]\n"
+"\n"
+msgstr ""
+"Utilizare: doc++ [opþiuni] [fiºiere]\n"
+"\n"
+
+#: src/main.cc:55
+msgid "  -A  --all              document all\n"
+msgstr "  -A  --all              documenteazã totul\n"
+
+#: src/main.cc:56
+#, fuzzy
+msgid "  -c  --c-comments       use C/C++ comments as doc++-comments\n"
+msgstr ""
+"  -c  --c-comments       utilizeazã comentariile C/C++ ca comentarii doc++\n"
+
+#: src/main.cc:57
+msgid "  -C  --config FILE      read options from FILE\n"
+msgstr "  -C  --config FILE      citeºte opþiunile din FILE\n"
+
+#: src/main.cc:58
+msgid "  -h  --help             display this help and exit\n"
+msgstr "  -h  --help             afiºeazã aceastã paginã de ajutor ºi iese\n"
+
+#: src/main.cc:59
+#, fuzzy
+msgid "  -H  --html             parse HTML syntax instead of TeX\n"
+msgstr "  -H  --html            parseazã sintaxã HTML în loc de TeX\n"
+
+#: src/main.cc:60
+msgid "  -I  --input FILE       read a list of input files from FILE\n"
+msgstr ""
+"  -I  --input FILE       citeºte o listã de fiºiere de intrare din FILE\n"
+
+#: src/main.cc:61
+msgid "  -J  --java             parse Java instead of C/C++\n"
+msgstr "  -J  --java             parseazã Java în loc de C/C++\n"
+
+#: src/main.cc:62
+msgid "  -nd --no-define        ignore `#define' macros\n"
+msgstr "  -nd --no-define        ignorã macro-urile `#define'\n"
+
+#: src/main.cc:63
+msgid "  -ng --no-class-graph   do not generate class graph\n"
+msgstr "  -ng --no-class-graph   nu genereazã graficul claselor\n"
+
+#: src/main.cc:64
+msgid "  -p  --private          document private members\n"
+msgstr "  -p  --private          documenteazã membrii privaþi\n"
+
+#: src/main.cc:65
+#, fuzzy
+msgid "  -q  --quick            optimize for speed instead of size\n"
+msgstr "  -q  --quick            optimizeazã pentru vitezã în loc de mãrime\n"
+
+#: src/main.cc:66
+msgid ""
+"  -Q  --quantel          Quantel extensions, folding & appended comments\n"
+msgstr "  -Q  --quantel          extensii Quantel, comentarii adãugate\n"
+
+#: src/main.cc:67
+msgid "  -R  --internal-doc     generate internal documentation\n"
+msgstr "  -R  --internal-doc     genereazã documentaþia internã\n"
+
+#: src/main.cc:68
+msgid "  -u  --upwards-arrows   upwards arrows in class graphs\n"
+msgstr "  -u  --upwards-arrows   sãgeþi în sus în ierarhiile de clase\n"
+
+#: src/main.cc:69
+msgid "  -v  --verbose          turn verbose mode on\n"
+msgstr "  -v  --verbose          activeazã modul verbose\n"
+
+#: src/main.cc:70
+msgid "  -V  --version          output version information and exit\n"
+msgstr "  -V  --version          afiºeazã versiunea ºi iese\n"
+
+#: src/main.cc:71
+msgid "  -y  --scan-includes    scan `#include'ed header files\n"
+msgstr "  -y  --scan-includes    citeºte fiºierele header\n"
+
+#: src/main.cc:72
+msgid "  -Y  --idl              parse IDL instead of C/C++\n"
+msgstr "  -Y  --idl              parseazã IDL în loc de C/C++\n"
+
+#: src/main.cc:73
+#, fuzzy
+msgid ""
+"  -z  --php              parse PHP instead of C/C++\n"
+"\n"
+msgstr "  -Y  --idl              parseazã IDL în loc de C/C++\n"
+
+#: src/main.cc:75
+msgid "Alternate output types instead of HTML:\n"
+msgstr ""
+
+#: src/main.cc:76
+#, fuzzy
+msgid "  -t  --tex              TeX output output\n"
+msgstr "  -t  --tex              genereazã ieºire TeX în loc de HTML\n"
+
+#: src/main.cc:77
+#, fuzzy
+msgid "  -Z  --docbook          DocBook SGML output\n"
+msgstr "  -Z  --docbook          genereazã DocBook SGML în loc de HTML\n"
+
+#: src/main.cc:78
+#, fuzzy
+msgid "  -L  --docbookxml       DocBook XML output\n"
+msgstr "  -Z  --docbook          genereazã DocBook SGML în loc de HTML\n"
+
+#: src/main.cc:80
+msgid "Additional options for HTML output:\n"
+msgstr "Opþiuni adiþionale pentru ieºirea HTML\n"
+
+#: src/main.cc:81
+msgid "  -a  --tables           use tables instead of description lists\n"
+msgstr ""
+"  -a  --tables           utilizeazã tabele în loc de liste de descriere\n"
+
+#: src/main.cc:82
+msgid "  -b  --tables-border    use tables with borders\n"
+msgstr "  -b  --tables-border    utilizeazã tabele cu margini\n"
+
+#: src/main.cc:83
+msgid "  -B  --footer FILE      use FILE as footer on HTML pages\n"
+msgstr ""
+"  -B  --footer FILE      utilizeazã FILE ca subsol pentru paginile HTML\n"
+
+#: src/main.cc:85
+msgid "  -f  --filenames        show filenames in manual pages\n"
+msgstr ""
+"  -f  --filenames        afiºeazã numele de fiºiere în paginile de manual\n"
+
+#: src/main.cc:86
+msgid "  -F  --filenames-path   show filenames with path in manual pages\n"
+msgstr ""
+"  -F  --filenames-path   afiºeazã numele de fiºiere incluzând calea în "
+"paginile de manual\n"
+
+#: src/main.cc:87
+msgid "  -g  --no-gifs          do not generate GIFs for equations, etc.\n"
+msgstr "  -g  --no-gifs          nu genereazã GIF-uri pentru ecuaþii, etc.\n"
+
+#: src/main.cc:88
+msgid "  -G  --gifs             force generation of GIFs\n"
+msgstr "  -G  --gifs             forþeazã generarea de GIF-uri\n"
+
+#: src/main.cc:89
+msgid "  -i  --no-inherited     don't show inherited members\n"
+msgstr "  -i  --no-inherited     nu afiºeazã membrii moºteniþi\n"
+
+#: src/main.cc:90
+msgid "  -j  --no-java-graphs   suppress Java class graphs\n"
+msgstr "  -j  --no-java-graphs   anuleazã graficele de clase în Java\n"
+
+#: src/main.cc:91
+msgid "  -k  --trivial-graphs   keep trivial class graphs\n"
+msgstr "  -k  --trivial-graphs   utilizeazã grafice simple de clase\n"
+
+#: src/main.cc:92
+#, fuzzy
+msgid "  -K  --stylesheet FILE  use FILE as HTML style sheet\n"
+msgstr "  -T  --header FILE     utilizeazã FILE ca foaie de stil HTML\n"
+
+#: src/main.cc:93
+msgid "  -m  --no-members       don't show all members in DOC section\n"
+msgstr "  -m  --no-members       nu afiºeazã toþi membrii în secþiunea DOC\n"
+
+#: src/main.cc:94
+msgid "  -M  --full-toc         show members in TOC\n"
+msgstr "  -M  --full-toc         afiºeazã membrii în cuprins\n"
+
+#: src/main.cc:95
+msgid "  -P  --no-general       discard general stuff\n"
+msgstr "  -P  --no-general       renunþã la chestiunile generale\n"
+
+#: src/main.cc:96
+msgid "  -S  --sort             sort entries alphabetically\n"
+msgstr "  -S  --sort             sorteazã intrãrile in ordine alfabeticã\n"
+
+#: src/main.cc:97
+msgid "  -T  --header FILE      use FILE as header on HTML pages\n"
+msgstr ""
+"  -T  --header FILE      utilizeazã FILE ca cap de paginã în paginile HTML\n"
+
+#: src/main.cc:98
+msgid "  -w  --before-group     print group documentation before group\n"
+msgstr ""
+"  -w  --before-group     afiºeazã documentaþia grupului înainte de grup\n"
+
+#: src/main.cc:99
+msgid "  -W  --before-class     print class documentation before group\n"
+msgstr ""
+"  -W  --before-class     afiºeazã documentaþia claselor înainte de grup\n"
+
+#: src/main.cc:100
+msgid ""
+"  -x  --suffix SUFFIX    use SUFFIX instead of \".html\"\n"
+"\n"
+msgstr ""
+"  -x  --suffix SUFFIX    utilizeazã SUFFIX în loc de \".html\"\n"
+"\n"
+
+#: src/main.cc:102
+msgid "Additional options for TeX output:\n"
+msgstr "Opþiuni adiþionale pentru ieºirea TeX:\n"
+
+#: src/main.cc:103
+msgid "  -ec --class-graph      only generates class graph\n"
+msgstr "  -ec --class-graph      genereazã doar graficile de clase\n"
+
+#: src/main.cc:104
+msgid "  -ef --env FILE         read TeX environment from FILE\n"
+msgstr "  -ef --env FILE          citeºte mediul TeX din FILE\n"
+
+#: src/main.cc:105
+#, fuzzy
+msgid "  -ei --index            generate the index only\n"
+msgstr "  -ei --index            genereazã doar index-ul\n"
+
+#: src/main.cc:106
+msgid "  -eo --style OPTION     setup TeX style OPTION\n"
+msgstr "  -eo --style OPTION     seteazã stilul TeX OPTION\n"
+
+#: src/main.cc:107
+msgid "  -ep --package FILE     setup TeX to use package FILE\n"
+msgstr "  -ep --package FILE     seteazã TeX sã utilizeze pachetul FILE\n"
+
+#: src/main.cc:108
+msgid "  -et --title FILE       use content of FILE as TeX title page\n"
+msgstr ""
+"  -et --title FILE       utilizeazã conþinutul FILE ca titlu de paginã TeX\n"
+
+#: src/main.cc:109
+msgid "  -D  --depth DEPTH      set minimum depth (number of levels) in TOC\n"
+msgstr ""
+"  -D  --depth DEPTH      seteazã adâncimea minimã (numãrul de nivele) în "
+"cuprins\n"
+
+#: src/main.cc:110
+msgid "  -l  --no-env           do not generate TeX environment\n"
+msgstr "  -l  --no-env           nu genereazã mediu TeX\n"
+
+#: src/main.cc:111
+msgid "  -o  --output FILE      set output file name\n"
+msgstr "  -o  --output FILE      seteazã numele fiºierului de ieºire\n"
+
+#: src/main.cc:112
+msgid "  -s  --source           generate source code listing\n"
+msgstr "  -s  --source           genereazã listing a codului sursã\n"
+
+#: src/main.cc:113
+#, fuzzy
+msgid ""
+"  -X  --hide-index       don't generate index at section start\n"
+"\n"
+msgstr "  -X  --hide-index       nu genereazã index la începutul secþiunilor\n"
+
+#: src/main.cc:125
+#, c-format
+msgid "Ignoring option `-e%c': required argument missing\n"
+msgstr "Ignor opþiunea `-e%c': lipseºte argumentul necesar\n"
+
+#: src/main.cc:131
+#, fuzzy, c-format
+msgid "Unknown option `-%c'. Try `doc++ --help'\n"
+msgstr "`-%c' este o opþiune necunosctutã. Incercaþi `doc++ --help'\n"
+
+#: src/main.cc:133
+#, fuzzy, c-format
+msgid "Unknown option `-%c%c'. Try `doc++ --help'\n"
+msgstr "`-%c' este o opþiune necunoscutã. Incercaþi `doc++ --help'\n"
+
+#: src/main.cc:449
+msgid "Ignoring option `--depth': bad argument specified\n"
+msgstr "Ignor opþiunea `--depth': argumentul specificat este invalid\n"
+
+#: src/main.cc:469
+#, c-format
+msgid "Ignoring option `--output': cannot open file `%s'\n"
+msgstr "Ignor opþiunea `--output': nu pot deschide fiºierul `%s'\n"
+
+#: src/main.cc:537
+#, fuzzy, c-format
+msgid "Error opening configuration file `%s'\n"
+msgstr "Eroare la deschiderea fiºierului de configurare `%s'\n"
+
+#: src/main.cc:558
+#, fuzzy
+msgid "No input files. Try `doc++ --help'\n"
+msgstr "Nici un fiºier de intrare. Incercaþi `doc++ --help'\n"
+
+#: src/main.cc:579
+msgid "Reading files...\n"
+msgstr "Citesc fiºierele..\n"
+
+#: src/main.cc:586
+#, c-format
+msgid "Error opening file list `%s'\n"
+msgstr "Eroare la deschiderea listei de fiºiere `%s'\n"
+
+#: src/main.cc:607
+#, c-format
+msgid "%d bytes read\n"
+msgstr "am citit %d octeþi\n"
+
+#: src/main.cc:613
+msgid "Generating source code listing...\n"
+msgstr "Generez listingul codului sursã...\n"
+
+#: src/main.cc:616 src/main.cc:679
+msgid "Done.\n"
+msgstr "Gata.\n"
+
+#: src/main.cc:622
+msgid "Parsing...\n"
+msgstr "Parsez...\n"
+
+#: src/main.cc:636
+#, fuzzy
+msgid "Merging duplicate entries...\n"
+msgstr "Cumulez intrãrile duble...\n"
+
+#: src/main.cc:641
+msgid "Sorting entries...\n"
+msgstr "Sortez intrãrile...\n"
+
+#: src/main.cc:646
+msgid "Resolving references...\n"
+msgstr "Rezolv referinþele...\n"
+
+#: src/main.cc:670
+#, c-format
+msgid "Writing GIF database file `%s'...\n"
+msgstr "Scriu baza de date GIF `%s'...\n"
+
+#: src/tex2gif.cc:44
+#, c-format
+msgid "Running `%s'\n"
+msgstr "Rulez `%s'\n"
+
+#: src/tex2gif.cc:68
+#, c-format
+msgid "Processing file `%s'\n"
+msgstr "Procesez fiºierul `%s'\n"
+
+#: src/tex2gif.cc:79
+#, c-format
+msgid "Read %d GIF record(s).\n"
+msgstr "Am citit %d înregistrãri GIF\n"
+
+#: src/tex2gif.cc:85
+#, c-format
+msgid "Can't open `%s/dxxgifs.tex' for writing\n"
+msgstr "Nu pot deschide pentru scriere `%s/dxxgifs.tex'\n"
+
+#: src/tex2gif.cc:99
+#, c-format
+msgid "Couldn't open `%s'\n"
+msgstr "Nu am putut deschide `%s'\n"
+
+#: src/tex2gif.cc:124
+#, c-format
+msgid "Could not open `%s'\n"
+msgstr "Nu am putut deschide `%s'\n"
+
+#: src/tex2gif.cc:174
+#, c-format
+msgid "Couldn't extract BoundingBox from dxx%04d.eps.\n"
+msgstr "Nu am putut extrage BoundingBox din dxx%04d.eps.\n"
+
+#: src/tex2gif.cc:210
+msgid "Warning: problems generating GIFs. Check file `dxxgifs.tex'.\n"
+msgstr ""
+"Atenþie: probleme apãrute la generarea GIF-urilor. Verificaþi fiºierul "
+"`dxxgifs.tex'.\n"

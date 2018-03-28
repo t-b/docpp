@@ -1,0 +1,6 @@
+src/Entry.cc
+src/McDirectory.cc
+src/equate.cc
+src/html.cc
+src/main.cc
+src/tex2gif.cc

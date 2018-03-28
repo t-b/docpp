@@ -1,0 +1,56 @@
+DOC++ v3.4.x
+December 22, 2002
+TO-DO: Future development ideas
+
+BUG FIXES:
+
+- correct sorting for Java graphs and for TeX output
+  (Knut Stolze <stolze@informatik.uni-jena.de>)
+
+- fix that errors reported by weblint on generated HTML pages (partially done)
+
+CHANGES:
+- sort out XML/DocBook output (partially done)
+
+- sort out PHP parsing
+
+- get `equate' working
+
+- warning should contain a reference to the file and line number where it
+  occured (partially done)
+  (Peer Sommerlund <peer.sommerlund@netman.dk>)
+
+- optionally disable the merging mechanism
+  (Peer Sommerlund <peer.sommerlund@netman.dk>)
+
+FEATURES:
+- specify where to look for #included header files
+  (Peer Sommerlund <peer.sommerlund@netman.dk>)
+
+- formatting of internal types (for example `{\tt...}' for TeX output)
+  (Holger Flvrke <hf@daisybytes.com>)
+
+- support `using' keyword
+
+- man, SGML, XML, info output
+
+- make use of STL
+
+- use DOC++ to produce annotated source code listings - DOC++ comments would
+  be typeset, while code lines would be numbered and inserted verbatim into
+  the document. Ideally, hyperlinks would be made between member function
+  descriptions in the class hierarchy documents, and the actual commented code
+  listing
+  (Jonathan Rice <rice@squareusa.com>)
+
+- Include all of the source files, cross linked, 
+  syntax coloured ( in HTML ), with bold comments.
+
+- Add object instance type checking and scoping to languages so
+  method source can be traced through dereferenced objects in source.
+
+- Abstract to pluggable module for editors / IDEs
+
+- Expand to C, PASCAL using a filename based heuristic for
+  generating links, with a struct based type checking / cross-linking
+  system.

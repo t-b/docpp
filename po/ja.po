@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DOC++ 3.4.2\n"
+"POT-Creation-Date: 2002-12-22 18:08+0200\n"
+"PO-Revision-Date: 2000-03-14 22:21+EET\n"
+"Last-Translator: TANGE Toshio <t-tange@ats.nis.nec.co.jp>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Entry.cc:102
+msgid "No file"
+msgstr "ファイルがありません"
+
+#: src/Entry.cc:395
+#, c-format
+msgid "Make full name from `%s'\n"
+msgstr "`%s'からフルネームを作ります\n"
+
+#: src/Entry.cc:1089
+#, c-format
+msgid "Warning: `%s %s%s' already have documentation, merging\n"
+msgstr "警告: `%s %s%s' 既にドキュメントがあるのでマージします\n"
+
+#: src/Entry.cc:1156
+#, fuzzy, c-format
+msgid "Warning: no parent `%s' for `%s %s%s' found\n"
+msgstr "クラス`%s'が見付かりません(クラス`%s %s%s'のためのクラス)\n"
+
+#: src/Entry.cc:1350
+#, fuzzy, c-format
+msgid "`%s' found in namespace `%s'!\n"
+msgstr "クラス `%s' が名前空間 `%s'で見つかりました!\n"
+
+#: src/McDirectory.cc:51
+#, c-format
+msgid "No files matching `%s' found\n"
+msgstr "`%s'に該当するファイルはありません\n"
+
+#: src/McDirectory.cc:99
+#, c-format
+msgid "Can't open `%s' dir\n"
+msgstr "ディレクトリ`%s'を開けませんでした\n"
+
+#: src/equate.cc:49
+#, c-format
+msgid "equate %s, generate GIFs of equations from GIF database file\n"
+msgstr "equate %s, generate GIFs of equations from GIF database file\n"
+
+#: src/equate.cc:51
+msgid ""
+"Usage: equate [options] [gifdb_file]\n"
+"\n"
+msgstr ""
+"使用: equate [options] [gifdb_file]\n"
+"\n"
+
+#: src/equate.cc:52 src/main.cc:54
+msgid "Options:\n"
+msgstr "オプション:\n"
+
+#: src/equate.cc:53 src/main.cc:84
+msgid "  -d  --dir DIR          use DIR for the output directory\n"
+msgstr "  -d  --dir DIR          出力先ディレクトリ DIR を指定する\n"
+
+#: src/equate.cc:54
+#, fuzzy
+msgid "  -f  --file FILE        read FILE instead of gif.db as GIF database\n"
+msgstr ""
+"  -f  --file FILE       gif.db の代わりにデータベース FILE を読み込む \n"
+
+#: src/equate.cc:55
+msgid ""
+"                         (relative to . or DIR)\n"
+"\n"
+msgstr ""
+"                         (. または DIR)\n"
+"\n"
+
+#: src/equate.cc:56 src/main.cc:115
+#, fuzzy
+msgid ""
+"Mail bug reports and suggestions to <docpp-users@lists.sourceforge.net>\n"
+msgstr "バグ報告、助言は、メールで<docpp@yahoogroups.com>\n"
+
+#: src/equate.cc:61 src/main.cc:120
+#, c-format
+msgid "Ignoring option `%s': required argument missing\n"
+msgstr "不正なオプション `%s': 引数の値が正しくない\n"
+
+#: src/html.cc:102
+#, fuzzy
+msgid "   <TITLE>Table of Contents</TITLE>\n"
+msgstr ""
+"\n"
+"<H1>目次</H1>\n"
+
+#: src/html.cc:111
+#, fuzzy
+msgid "   <TITLE>Hierarchy of Classes</TITLE>\n"
+msgstr "<H1>クラス階層</H1>\n"
+
+#: src/html.cc:119
+msgid ""
+"<HEAD>\n"
+"   <TITLE>General Bits</TITLE>\n"
+msgstr ""
+
+#: src/html.cc:137
+#, fuzzy
+msgid "\">Hierarchy of classes</A></I></P>"
+msgstr "\">クラス階層</A></I><P>"
+
+#: src/html.cc:142
+#, fuzzy
+msgid "\">Alphabetic index</A></I></P>"
+msgstr "\">アルファベット順索引</A></I><P>"
+
+#: src/html.cc:146 src/html.cc:157
+#, fuzzy
+msgid "\">Alphabetic index</A></I>"
+msgstr "\">アルファベット順索引</A></I><P>"
+
+#: src/html.cc:151
+#, fuzzy
+msgid "\">Hierarchy of classes</A></I>"
+msgstr "\">クラス階層</A></I><P>"
+
+#: src/html.cc:162
+msgid "\">HTML hierarchy of classes</A>"
+msgstr "\">HTML クラス階層</A>"
+
+#: src/html.cc:163
+msgid " or <A HREF=\"HIERjava"
+msgstr " or <A HREF=\"HIERjava"
+
+#: src/html.cc:211
+#, c-format
+msgid "Warning: weird file name `%s'\n"
+msgstr "警告: weird file name `%s'\n"
+
+#: src/html.cc:267
+#, fuzzy
+msgid ""
+"This page was generated with the help of <A HREF=\"http://docpp.sourceforge."
+"net\">DOC++</A>.\n"
+msgstr ""
+"このページは、<A HREF=\"http://www.linuxsupportline.com/~doc++\">DOC++</A>に"
+"より生成されています\n"
+
+#: src/html.cc:614
+msgid "<H1>Hierarchy of Classes</H1>\n"
+msgstr "<H1>クラス階層</H1>\n"
+
+#: src/html.cc:1072
+msgid ""
+"\n"
+"<H1>Table of Contents</H1>\n"
+msgstr ""
+"\n"
+"<H1>目次</H1>\n"
+
+#: src/html.cc:1117
+msgid "<H1>Hierarchy of classes</H1>\n"
+msgstr "<H1>クラス階層</H1>\n"
+
+#: src/html.cc:1121
+#, c-format
+msgid "<I><A HREF=\"index%s\"> alphabetic index</A></I><P>"
+msgstr "<I><A HREF=\"index%s\"> アルファベット順索引 </A></I><P>"
+
+#: src/html.cc:1156
+#, c-format
+msgid "Member `%s' was there\n"
+msgstr "メンバ `%s' はここにあります\n"
+
+#: src/html.cc:1173
+msgid "<DT><H3>Public Fields</H3><DD>"
+msgstr "public メンバ"
+
+#: src/html.cc:1174
+msgid "<DT><H3>Public Methods</H3><DD>"
+msgstr "public メンバ関数"
+
+#: src/html.cc:1175
+msgid "<DT><H3>Public Members</H3><DD>"
+msgstr "public クラス"
+
+#: src/html.cc:1176
+msgid "<DT><H3>Protected Fields</H3><DD>"
+msgstr "Protected メンバ"
+
+#: src/html.cc:1177
+msgid "<DT><H3>Protected Methods</H3><DD>"
+msgstr "<DT><H3>Protected メンバ関数</H3><DD>"
+
+#: src/html.cc:1178
+msgid "<DT><H3>Protected Members</H3><DD>"
+msgstr "Protectedクラス"
+
+#: src/html.cc:1179
+msgid "<DT><H3>Private Fields</H3><DD>"
+msgstr "<DT><H3>Private メンバ</H3><DD>"
+
+#: src/html.cc:1180
+msgid "<DT><H3>Private Methods</H3><DD>"
+msgstr "<DT><H3>Private メンバ関数</H3><DD>"
+
+#: src/html.cc:1181
+msgid "<DT><H3>Private Members</H3><DD>"
+msgstr "<DT><H3>Private クラス</H3><DD>"
+
+#: src/html.cc:1240 src/html.cc:1634
+#, c-format
+msgid "<HR><H3>Inherited from <A HREF=\"%s\">%s</A>:</H3>\n"
+msgstr "<HR><H3>継承<A HREF=\"%s\">%s</A>:</H3>\n"
+
+#: src/html.cc:1278
+msgid "<DT><B>Throws:</B><DD>"
+msgstr "<DT><B>例外を投げる:</B><DD>"
+
+#: src/html.cc:1299
+msgid "<DT><B>Parameters:</B><DD>"
+msgstr "<DT><B>パラメータ:</B><DD>"
+
+#: src/html.cc:1318
+#, fuzzy
+msgid "<DT><B>Fields:</B><DD>"
+msgstr "<DT><B> 参照 :</B><DD>"
+
+#: src/html.cc:1335
+msgid "Returns"
+msgstr ""
+
+#: src/html.cc:1336
+msgid "Preconditions"
+msgstr ""
+
+#: src/html.cc:1337
+msgid "Postconditions"
+msgstr ""
+
+#: src/html.cc:1338
+msgid "Friends"
+msgstr ""
+
+#: src/html.cc:1341
+#, c-format
+msgid "<DT><B>Author:</B><DD>%s\n"
+msgstr "<DT><B>著者:</B><DD>%s\n"
+
+#: src/html.cc:1344
+#, c-format
+msgid "<DT><B>Version:</B><DD>%s\n"
+msgstr "<DT><B>バージョン:</B><DD>%s\n"
+
+#: src/html.cc:1347
+#, fuzzy, c-format
+msgid "<DT><B><I>Deprecated:</I></B><DD>%s\n"
+msgstr "<DT><B>バージョン:</B><DD>%s\n"
+
+#: src/html.cc:1350
+#, fuzzy, c-format
+msgid "<DT><B>Since:</B><DD>%s\n"
+msgstr "<DT><B>バージョン:</B><DD>%s\n"
+
+#: src/html.cc:1354
+msgid "<DT><B>See Also:</B><DD>"
+msgstr "<DT><B> 参照 :</B><DD>"
+
+#: src/html.cc:1476
+#, c-format
+msgid "In file %s:"
+msgstr "ファイル %s:"
+
+#: src/html.cc:1481
+#, c-format
+msgid "<H2>Package %s</H2>"
+msgstr "<H2>パッケージ %s</H2>"
+
+#: src/html.cc:1575
+#, c-format
+msgid "Writing page for `%s %s%s'\n"
+msgstr "書いているページは `%s %s%s'\n"
+
+#: src/html.cc:1585 src/html.cc:1644
+msgid ""
+"<HR>\n"
+"<H2>Documentation</H2>\n"
+msgstr ""
+"<HR>\n"
+"<H2>文書</H2>\n"
+
+#: src/html.cc:1604
+msgid ""
+"<HR>\n"
+"\n"
+"<H2>Inheritance:</H2>\n"
+msgstr ""
+"<HR>\n"
+"\n"
+"<H2>継承:</H2>\n"
+
+#: src/html.cc:1660
+msgid ""
+"<HR>\n"
+"<DL><DT><B>Direct child classes:\n"
+"</B><DD>"
+msgstr ""
+"<HR>\n"
+"<DL><DT><B>直接の子クラス :\n"
+"</B><DD>"
+
+#: src/html.cc:1673
+msgid ""
+"\n"
+"<HR><DL><DT><B>This class has no child classes.</B></DL>\n"
+"\n"
+msgstr ""
+"\n"
+"<HR><DL><DT><B>このクラスには、子クラスは存在しない</B></DL>\n"
+"\n"
+
+#: src/html.cc:1694
+#, c-format
+msgid "Opening `%s' to write\n"
+msgstr "書き込むために `%s' 開いています\n"
+
+#: src/html.cc:1698
+#, c-format
+msgid "Cannot open `%s'\n"
+msgstr "`%s'が開けませんでした\n"
+
+#: src/html.cc:1748
+msgid "Making name from type for:\n"
+msgstr "型の名前を作っています:\n"
+
+#: src/html.cc:1776
+#, c-format
+msgid "Copied `%s %s%s' into `%s'\n"
+msgstr "`%s %s%s' を `%s'へコピーしました \n"
+
+#: src/html.cc:1802
+#, fuzzy, c-format
+msgid "Warning: `%s %s%s' hanging from root with no page\n"
+msgstr "`%s' ページを出力することができませんでした\n"
+
+#: src/html.cc:1888
+#, c-format
+msgid "Writing sub for `%s %s%s' to file `%s'\n"
+msgstr " `%s %s%s'のためにサブファイル`%s'へ書いています\n"
+
+#: src/html.cc:1944
+#, c-format
+msgid "Writing `%s %s%s' to file `%s'\n"
+msgstr "`%s %s%s'のためにファイル`%s'へ書いています\n"
+
+#: src/html.cc:1957
+#, fuzzy, c-format
+msgid "Warning: weird filename `%s' for `%s %s%s'\n"
+msgstr "Warning: weird filename `%s' for `%s %s'\n"
+
+#: src/html.cc:1965
+#, c-format
+msgid "Cannot open `%s' for writing\n"
+msgstr "`%s' を書き込むために開けませんでした\n"
+
+#: src/html.cc:2088
+#, fuzzy, c-format
+msgid "`%s' directory already exists\n"
+msgstr "`%s' は既に存在します\n"
+
+#: src/html.cc:2093
+#, c-format
+msgid "Could not create `%s' directory\n"
+msgstr "ディレクトリ`%s'を作れませんでした\n"
+
+#: src/html.cc:2124
+msgid "Converting DOC++ to HTML...\n"
+msgstr "DOC++ を HTMLへ変換中...\n"
+
+#: src/html.cc:2139
+#, c-format
+msgid "Warning: Can't open `%s', producing no footer.\n"
+msgstr "警告:フッタファイル `%s'ができていません\n"
+
+#: src/html.cc:2153
+#, c-format
+msgid "Warning: Can't open `%s', producing no header.\n"
+msgstr "警告: ヘッダファイル `%s'ができていません\n"
+
+#: src/html.cc:2164
+msgid "Writing files...\n"
+msgstr "ファイルに書き込んでいます...\n"
+
+#: src/html.cc:2182
+msgid "Writing TOC...\n"
+msgstr "目次を書いています...\n"
+
+#: src/html.cc:2198
+msgid "Writing Class Hierarchy...\n"
+msgstr "クラス階層を書いています...\n"
+
+#: src/main.cc:50
+#, fuzzy, c-format
+msgid "DOC++ %s, a documentation system for C, C++, IDL and Java\n"
+msgstr "DOC++ %s はC, C++ そしてJavaの文書作成システムです\n"
+
+#: src/main.cc:52
+msgid ""
+"Usage: doc++ [options] [files]\n"
+"\n"
+msgstr ""
+"Usage: doc++ [オプション] [ソースファイル..]\n"
+"\n"
+
+#: src/main.cc:55
+msgid "  -A  --all              document all\n"
+msgstr "  -A  --all              全ての項目を含む文書を作成します\n"
+
+#: src/main.cc:56
+#, fuzzy
+msgid "  -c  --c-comments       use C/C++ comments as doc++-comments\n"
+msgstr ""
+"  -c  --c-comments       C++ のコメント`//'をdoc++のコメントとして扱います\n"
+
+#: src/main.cc:57
+#, fuzzy
+msgid "  -C  --config FILE      read options from FILE\n"
+msgstr ""
+"  -I  --input FILE       ファイルFILEから入力ファイル名リストを読み込みます\n"
+
+#: src/main.cc:58
+msgid "  -h  --help             display this help and exit\n"
+msgstr "  -h  --help             このメッセージを表示して終了します\n"
+
+#: src/main.cc:59
+#, fuzzy
+msgid "  -H  --html             parse HTML syntax instead of TeX\n"
+msgstr "  -H  --html            HTML の書式を解析します\n"
+
+#: src/main.cc:60
+msgid "  -I  --input FILE       read a list of input files from FILE\n"
+msgstr ""
+"  -I  --input FILE       ファイルFILEから入力ファイル名リストを読み込みます\n"
+
+#: src/main.cc:61
+msgid "  -J  --java             parse Java instead of C/C++\n"
+msgstr "  -J  --java             JavaをC/C++と同じように読みます\n"
+
+#: src/main.cc:62
+msgid "  -nd --no-define        ignore `#define' macros\n"
+msgstr "  -nd --no-define        #define' を読み飛ばします\n"
+
+#: src/main.cc:63
+msgid "  -ng --no-class-graph   do not generate class graph\n"
+msgstr "  -ng --no-class-graph   クラスグラフを作らない\n"
+
+#: src/main.cc:64
+msgid "  -p  --private          document private members\n"
+msgstr "  -p  --private          privateメンバを文書に含みます\n"
+
+#: src/main.cc:65
+#, fuzzy
+msgid "  -q  --quick            optimize for speed instead of size\n"
+msgstr "  -q  --quick            速さを優先します\n"
+
+#: src/main.cc:66
+msgid ""
+"  -Q  --quantel          Quantel extensions, folding & appended comments\n"
+msgstr "  -Q  --quantel          長いコメントをつないで、折り返します\n"
+
+#: src/main.cc:67
+msgid "  -R  --internal-doc     generate internal documentation\n"
+msgstr ""
+
+#: src/main.cc:68
+msgid "  -u  --upwards-arrows   upwards arrows in class graphs\n"
+msgstr "  -u  --upwards-arrows   上向きの方向でクラス階層を表示します\n"
+
+#: src/main.cc:69
+msgid "  -v  --verbose          turn verbose mode on\n"
+msgstr "  -v  --verbose          詳細表示モードをオンにします\n"
+
+#: src/main.cc:70
+#, fuzzy
+msgid "  -V  --version          output version information and exit\n"
+msgstr ""
+"  -V  --version          バージョン情報を表示して終了\n"
+"\n"
+
+#: src/main.cc:71
+msgid "  -y  --scan-includes    scan `#include'ed header files\n"
+msgstr ""
+
+#: src/main.cc:72
+#, fuzzy
+msgid "  -Y  --idl              parse IDL instead of C/C++\n"
+msgstr "  -J  --java             JavaをC/C++と同じように読みます\n"
+
+#: src/main.cc:73
+#, fuzzy
+msgid ""
+"  -z  --php              parse PHP instead of C/C++\n"
+"\n"
+msgstr "  -J  --java             JavaをC/C++と同じように読みます\n"
+
+#: src/main.cc:75
+msgid "Alternate output types instead of HTML:\n"
+msgstr ""
+
+#: src/main.cc:76
+#, fuzzy
+msgid "  -t  --tex              TeX output output\n"
+msgstr "  -t  --tex              HTMLと同様にTEX出力を行います\n"
+
+#: src/main.cc:77
+#, fuzzy
+msgid "  -Z  --docbook          DocBook SGML output\n"
+msgstr "  -t  --tex              HTMLと同様にTEX出力を行います\n"
+
+#: src/main.cc:78
+#, fuzzy
+msgid "  -L  --docbookxml       DocBook XML output\n"
+msgstr "  -t  --tex              HTMLと同様にTEX出力を行います\n"
+
+#: src/main.cc:80
+msgid "Additional options for HTML output:\n"
+msgstr "HTML 出力に追加するオプション:\n"
+
+#: src/main.cc:81
+msgid "  -a  --tables           use tables instead of description lists\n"
+msgstr "  -a  --tables           リスト表示に表形式を使う\n"
+
+#: src/main.cc:82
+msgid "  -b  --tables-border    use tables with borders\n"
+msgstr "  -b  --tables-border   罫線付きのテーブルを使う\n"
+
+#: src/main.cc:83
+msgid "  -B  --footer FILE      use FILE as footer on HTML pages\n"
+msgstr "  -B  --footer FILE      use FILE as footer on HTML pages\n"
+
+#: src/main.cc:85
+msgid "  -f  --filenames        show filenames in manual pages\n"
+msgstr "  -f  --filenames        マニュアルページにファイル名を表示する\n"
+
+#: src/main.cc:86
+msgid "  -F  --filenames-path   show filenames with path in manual pages\n"
+msgstr "  -F  --filenames-path   ファイル名表示をパス名付きにする\n"
+
+#: src/main.cc:87
+msgid "  -g  --no-gifs          do not generate GIFs for equations, etc.\n"
+msgstr "  -g  --no-gifs          同じGIFファイルを生成しない\n"
+
+#: src/main.cc:88
+msgid "  -G  --gifs             force generation of GIFs\n"
+msgstr "  -G  --gifs             GIFsファイルを強制出力\n"
+
+#: src/main.cc:89
+msgid "  -i  --no-inherited     don't show inherited members\n"
+msgstr "  -i  --no-inherited     継承メンバを表示しない\n"
+
+#: src/main.cc:90
+msgid "  -j  --no-java-graphs   suppress Java class graphs\n"
+msgstr "  -j  --no-java-graphs   Javaクラスのグラフを表示しない\n"
+
+#: src/main.cc:91
+msgid "  -k  --trivial-graphs   keep trivial class graphs\n"
+msgstr "  -k  --trivial-graphs   クラスグラフの詳細を保存する\n"
+
+#: src/main.cc:92
+#, fuzzy
+msgid "  -K  --stylesheet FILE  use FILE as HTML style sheet\n"
+msgstr "  -T  --header FILE     HTML ページのヘッダFILEを使う\n"
+
+#: src/main.cc:93
+msgid "  -m  --no-members       don't show all members in DOC section\n"
+msgstr "  -m  --no-members       DOCセクションでメンバ名を表示しない\n"
+
+#: src/main.cc:94
+msgid "  -M  --full-toc         show members in TOC\n"
+msgstr "  -M  --full-toc        目次でメンバを表示する\n"
+
+#: src/main.cc:95
+msgid "  -P  --no-general       discard general stuff\n"
+msgstr "  -P  --no-general       製作スタッフの非表示\n"
+
+#: src/main.cc:96
+msgid "  -S  --sort             sort entries alphabetically\n"
+msgstr "  -S  --sort             アルファベット順にエントリを並べる\n"
+
+#: src/main.cc:97
+msgid "  -T  --header FILE      use FILE as header on HTML pages\n"
+msgstr "  -T  --header FILE     HTML ページのヘッダFILEを使う\n"
+
+#: src/main.cc:98
+msgid "  -w  --before-group     print group documentation before group\n"
+msgstr ""
+
+#: src/main.cc:99
+msgid "  -W  --before-class     print class documentation before group\n"
+msgstr ""
+
+#: src/main.cc:100
+msgid ""
+"  -x  --suffix SUFFIX    use SUFFIX instead of \".html\"\n"
+"\n"
+msgstr ""
+"  -x  --suffix SUFFIX    use SUFFIX instead of \".html\"\n"
+"\n"
+
+#: src/main.cc:102
+msgid "Additional options for TeX output:\n"
+msgstr "TeX 出力へオプションを追加する:\n"
+
+#: src/main.cc:103
+msgid "  -ec --class-graph      only generates class graph\n"
+msgstr "  -ec --class-graph      クラスグラフのみ出力する\n"
+
+#: src/main.cc:104
+msgid "  -ef --env FILE         read TeX environment from FILE\n"
+msgstr "  -ef --env FILE          TeX 環境をFILEから読み込む\n"
+
+#: src/main.cc:105
+#, fuzzy
+msgid "  -ei --index            generate the index only\n"
+msgstr "  -ei --index            索引を作る\n"
+
+#: src/main.cc:106
+msgid "  -eo --style OPTION     setup TeX style OPTION\n"
+msgstr "  -eo --style OPTION     TeXのstyleオプションを起動する\n"
+
+#: src/main.cc:107
+msgid "  -ep --package FILE     setup TeX to use package FILE\n"
+msgstr "  -ep --package FILE     TeXのふパッケージファイル FILEを使う\n"
+
+#: src/main.cc:108
+msgid "  -et --title FILE       use content of FILE as TeX title page\n"
+msgstr "  -et --title FILE       TeXのタイトルページを目次に使う\n"
+
+#: src/main.cc:109
+msgid "  -D  --depth DEPTH      set minimum depth (number of levels) in TOC\n"
+msgstr "  -D  --depth DEPTH      目次の深さの最小値(レベル数)\n"
+
+#: src/main.cc:110
+msgid "  -l  --no-env           do not generate TeX environment\n"
+msgstr "  -l  --no-env            TeX 環境を生成しない\n"
+
+#: src/main.cc:111
+msgid "  -o  --output FILE      set output file name\n"
+msgstr "  -o  --output FILE      出力ファイル名の指定\n"
+
+#: src/main.cc:112
+#, fuzzy
+msgid "  -s  --source           generate source code listing\n"
+msgstr ""
+"  -s  --source           ソースリストの出力\n"
+"\n"
+
+#: src/main.cc:113
+#, fuzzy
+msgid ""
+"  -X  --hide-index       don't generate index at section start\n"
+"\n"
+msgstr "  -ei --index            索引を作る\n"
+
+#: src/main.cc:125
+#, c-format
+msgid "Ignoring option `-e%c': required argument missing\n"
+msgstr ""
+"オプション `-e%c'は不明なものです。 引数に与えているものが正しくありません\n"
+
+#: src/main.cc:131
+#, fuzzy, c-format
+msgid "Unknown option `-%c'. Try `doc++ --help'\n"
+msgstr "オプション `-%c'は不明なものです。 `%s -h'を試してください\n"
+
+#: src/main.cc:133
+#, fuzzy, c-format
+msgid "Unknown option `-%c%c'. Try `doc++ --help'\n"
+msgstr "オプション `-%c'は不明なものです。 `%s -h'を試してください\n"
+
+#: src/main.cc:449
+msgid "Ignoring option `--depth': bad argument specified\n"
+msgstr "不正なオプションの値です `--depth': 引数の書式が良くないです\n"
+
+#: src/main.cc:469
+#, c-format
+msgid "Ignoring option `--output': cannot open file `%s'\n"
+msgstr "不正なオプションの値です `--output': ファイル `%s'を開けませんでした\n"
+
+#: src/main.cc:537
+#, fuzzy, c-format
+msgid "Error opening configuration file `%s'\n"
+msgstr "ファイルリストを開こうとしたら `%s'エラーになりました\n"
+
+#: src/main.cc:558
+#, fuzzy
+msgid "No input files. Try `doc++ --help'\n"
+msgstr "入力ファイルがありません。`%s -h'を試してください\n"
+
+#: src/main.cc:579
+msgid "Reading files...\n"
+msgstr "ファイルを読んでいます..\n"
+
+#: src/main.cc:586
+#, c-format
+msgid "Error opening file list `%s'\n"
+msgstr "ファイルリストを開こうとしたら `%s'エラーになりました\n"
+
+#: src/main.cc:607
+#, c-format
+msgid "%d bytes read\n"
+msgstr "%d バイト読みました\n"
+
+#: src/main.cc:613
+msgid "Generating source code listing...\n"
+msgstr "ソースリストを出力しています\n"
+
+#: src/main.cc:616 src/main.cc:679
+msgid "Done.\n"
+msgstr "終りました。\n"
+
+#: src/main.cc:622
+msgid "Parsing...\n"
+msgstr "構文解析しています...\n"
+
+#: src/main.cc:636
+#, fuzzy
+msgid "Merging duplicate entries...\n"
+msgstr "エントリを並べています...\n"
+
+#: src/main.cc:641
+msgid "Sorting entries...\n"
+msgstr "エントリを並べています...\n"
+
+#: src/main.cc:646
+msgid "Resolving references...\n"
+msgstr "参照を探しています...\n"
+
+#: src/main.cc:670
+#, c-format
+msgid "Writing GIF database file `%s'...\n"
+msgstr "GIF データベースファイル `%s'に書いています...\n"
+
+#: src/tex2gif.cc:44
+#, c-format
+msgid "Running `%s'\n"
+msgstr "`%s'を実行しています\n"
+
+#: src/tex2gif.cc:68
+#, c-format
+msgid "Processing file `%s'\n"
+msgstr "ファイル`%s'を処理しています\n"
+
+#: src/tex2gif.cc:79
+#, c-format
+msgid "Read %d GIF record(s).\n"
+msgstr "GIF レコード%d を読んでください\n"
+
+#: src/tex2gif.cc:85
+#, c-format
+msgid "Can't open `%s/dxxgifs.tex' for writing\n"
+msgstr "書き込むために`%s/dxxgifs.tex' を開けませんでした\n"
+
+#: src/tex2gif.cc:99
+#, c-format
+msgid "Couldn't open `%s'\n"
+msgstr "`%s'を開けませんでした\n"
+
+#: src/tex2gif.cc:124
+#, c-format
+msgid "Could not open `%s'\n"
+msgstr "`%s'を開けませんでした\n"
+
+#: src/tex2gif.cc:174
+#, c-format
+msgid "Couldn't extract BoundingBox from dxx%04d.eps.\n"
+msgstr "Couldn't extract BoundingBox from dxx%04d.eps.\n"
+
+#: src/tex2gif.cc:210
+msgid "Warning: problems generating GIFs. Check file `dxxgifs.tex'.\n"
+msgstr ""
+"警告: GIFファイルの作成中問題が発生しました。`dxxgifs.tex'をチェックしてくだ"
+"さい\n"

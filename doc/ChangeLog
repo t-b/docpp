@@ -1,0 +1,1348 @@
+DOC++ 3.4.10
+December 22, 2002
+ChangeLog: DOC++'s History
+
+Sun 22 Dec 2002 05:26:36 PM EET
+    * 3.4.10 released
+
+Thu 28 Nov 2002 10:16:09 PM EET
+    + automake updates
+
+Thu 05 Sep 2002 04:19:27 PM EEST
+    + doc/manual/FAQ.dxx: one FAQ entry added
+      (patch by Steven Gould <steven.gould@stevengould.org>)
+
+Thu 09 May 2002 10:47:09 AM EEST
+    + 3.4.10-pre1
+    + added crufty XML DocBook support
+      (patch by Vincent Sanders <vince@trinity.fluff.org>)
+
+Sun 07 Apr 2002 09:33:04 AM EEST
+    + main.cc: fixed a g++ 3.0 compilation problem
+      (taken from Debian)
+
+Sun 30 Dec 2001 10:24:54 AM EST
+    * 3.4.9 released
+
+Sun 25 Nov 2001 12:06:42 PM EST
+    + updated russian message catalog
+    + tested on OS/2
+      (patch by Andrew Zabolotny <zap@cobra.ru>)
+
+Sat 03 Nov 2001 05:45:51 PM EST
+    + main.cc: an empty `doc++.conf' was created in the current directory
+      when looking for an existing `doc++.conf' file (Win32 platform)
+      (patch by Tony Cleveland <tcleveland@users.sourceforge.net>)
+
+Sat 15 Sep 2001 04:50:52 PM EEST
+    + cpp.ll: when using typedefs members following it could be ommited
+    + portability.h: include <cstdlib> on Solaris 8
+      (patch by Istvan Varadi <ivaradi@users.sourceforge.net>)
+
+Tue 07 Aug 2001 09:55:45 PM EEST
+    + tex2gif.cc: generated GIFS were empty; fixed
+      (patch by Philipp Frauenfelder <pfrauenf@math.ethz.ch>)
+
+Sun 17 Jun 2001 11:55:42 AM EEST
+    + 190 people on the mailing list
+
+Sun 27 May 2001 11:35:56 AM EEST
+    * 3.4.8 released
+    + documentation updates
+
+Thu 03 May 2001 11:14:00 PM EEST
+    + fix parsing the scope operator `::' with extra spaces
+      (patch by Geoff Wilson <geoff@sharinga.com>)
+
+Thu 08 Mar 2001 10:37:20 AM EET
+    + Win32 enhancements
+      (patch by Dan Fandrich <danf@npsnet.com>)
+
+Sat 17 Feb 2001 08:26:10 AM EET
+    + added support for pure virtual methods
+      (patch by Chris Mennie <camennie@undergrad.math.uwaterloo.ca>)
+    + added PHP support
+      (patch by Asger Henriksen <asger@ns.enterprisead.dk>)
+
+Wed 20 Dec 2000 12:11:34 AM EET
+    * 3.4.7 released
+    + 182 people on the mailing list
+
+Sat 09 Dec 2000 03:24:04 PM EET
+    + 3.4.7-pre2
+    + added french translations
+      (patch by Jean-Francois Tilman <jean-francois.tilman@axlog.fr>)
+
+Sun 05 Nov 2000 06:13:37 PM EET
+    + 3.4.7-pre1
+    + optionally (or if there are no classes) disable class graphs generation
+      for HTML output too
+    + fixed parsing of C-style `typedef struct' and `struct'
+      (reported by Ionut Filip <ionut@pmsd.com>)
+    + fixed some reference problems when using namespaces
+      (patch by Istvan Varadi <ivaradi@freemail.c3.hu>)
+
+Mon 16 Oct 2000 11:46:30 PM EEST
+    + Win32 compilation fixes
+      (patch by Yannis Bres <Yannis.BRES@cma.inria.fr>)
+    + added romanian translations
+
+Sat 14 Oct 2000 05:54:33 PM EEST
+    * 3.4.6 released
+
+Wed 11 Oct 2000 11:10:54 PM EEST
+    + 162 people on the mailing list
+
+Sun 08 Oct 2000 05:19:01 PM EEST
+    + 3.4.6-pre4
+    + cpp.ll: template handling fix
+      (patch by Gerhard Esterhuizen <goof@dsp.sun.ac.za>)
+
+Thu 05 Oct 2000 10:55:35 PM EEST
+    + added a `docxx.sty' brazilian translation
+      (thanks to Sergio Henrique Guerra de Sousa <shgs@dep.fem.unicamp.br>)
+
+Mon 18 Sep 2000 10:40:39 AM EEST
+    + 3.4.6-pre3
+    + optionally disable index generation at beggining of every section
+      (patch by Salmaso Raffaele <r.salmaso@inwind.it>)
+    + html.cc: fix arguments breaking for non-table output
+    + couple of little source code cleanups
+    + Entry.cc: one more fix for inner entry lookup bug
+
+Sun 10 Sep 2000 09:28:17 PM EEST
+    + 3.4.6-pre2
+    + Entry.cc: fixed an inner entry lookup bug (I hope)
+      (reported by Jani Kajala <janik@remedy.fi> and many others)
+    + cpp.ll: fixed a friend declaration problem
+      (reported by Lyle Johnson <ljohnson@resgen.com>)
+    + html.cc: writeHeader: break the arguments up into separate lines (using
+      a table) if you have very long argument lists
+    + cpp.ll: added an exclusion rule for some keywords used by "makeheader"
+      (patch by Gordon Hunt <gordon@rti.com>)
+    + config.ll: `trivialGraphs' should be `false' by default
+      (suggested by Lyle Johnson <ljohnson@resgen.com>)
+
+Sat 09 Sep 2000 07:11:38 PM EEST
+    + tex2gif.cc: fixed "too many colors" complains
+      (suggested by Pierre Andre Amaudruz <amaudruz@triumf.ca>)
+    + doc2db.ll: couple of DocBook cleanups
+
+Thu 31 Aug 2000 10:30:16 PM EEST
+    + add a few more LaTeX modes to set math mode
+      (patch by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Sun 27 Aug 2000 10:12:44 PM EEST
+    + 3.4.6-pre1
+    + cpp.ll: `*' was ignored when comparing functions' arguments; fixed
+    + Entry.cc: couple of warnings (gcc 2.95.2) removed
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+    + cpp.ll: variable names separated by commas were incorrectly parsed; fixed
+      (reported by Xander van Tilburg <xtilburg@rotterdam.ortec.nl>)
+
+Thu 17 Aug 2000 10:02:02 AM EEST
+    * 3.4.5 released
+
+Tue 15 Aug 2000 11:56:10 PM EEST
+    + 146 people on the mailing list
+
+Mon 14 Aug 2000 07:54:35 PM EEST
+    + 3.4.5-pre6
+    + html.cc: copyright: insert `</HTML>' at end
+      (reported by Bjorn Kalkbrenner <terminar@cyberphoria.org>)
+    + Entry.cc: equalArgs: hopefully fixed right the assert problem
+      (reported by Jim Patterson <jim_patterson@yahoo.com>)
+
+Sun 06 Aug 2000 07:25:29 PM EEST
+    + 3.4.5-pre5
+    + Entry.cc: equalArgs: fixed a possible failed assert
+      (reported by Rade Kutil <rkutil@cosy.sbg.ac.at>)
+
+Sat 05 Aug 2000 10:56:18 PM EEST
+    + added HTML style sheet support
+
+Fri 04 Aug 2000 07:41:48 PM EEST
+    + 3.4.5-pre4
+    + Entry.cc: documentation merging additions
+      (patch by Peter Moulder <pmoulder@bowman.csse.monash.edu.au>)
+
+Sun 30 Jul 2000 01:23:02 PM EEST
+    + 3.4.5-pre3
+    + Entry.cc: separateArguments: fixed a possible segfault
+      (reported by Peer Sommerlund <peer.sommerlund@netman.dk>)
+    + fixed some warnings on SunPro C++ 5.0
+      (reported by Dimitri Papadopoulos Orfanos <papadopo@shfj.cea.fr>)
+
+Fri 28 Jul 2000 10:05:13 PM EEST
+    + more IDL stuff
+      (patch by Randy Roesler <rroesler@mdsi.bc.ca>)
+
+Wed 19 Jul 2000 10:37:30 PM EEST
+    + 3.4.5-pre2
+    + cpp.ll: fixed that nasty segmentation fault
+      (reported by many people)
+
+Tue 18 Jul 2000 06:26:49 PM EEST
+    + 3.4.5-pre1
+
+Fri 14 Jul 2000 09:20:09 PM EEST
+    + build system enhancements
+    + doc2tex.ll: couple of more HTML->TeX conversions
+      (patch by Peter Moulder <pmoulder@bowman.csse.monash.edu.au>)
+    + html.cc: couple of weblint errors removed
+    + config.ll: added parsing of `scanIncludes'
+    + added GNU getopt to the distribution
+
+Wed 12 Jul 2000 03:08:27 PM EEST
+    + Entry.cc: fixed a compiler warning
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Sat 08 Jul 2000 11:27:15 AM EEST
+    * 3.4.4 released
+
+Sun 02 Jul 2000 11:15:38 PM EEST
+    + 3.4.4-pre12
+
+Sat 01 Jul 2000 01:07:43 AM EEST
+    + 3.4.4-pre11
+
+Tue 29 Jun 2000 10:02:06 PM EEST
+    + 3.4.4-pre10
+
+Sat 24 Jun 2000 08:23:50 PM EEST
+    + 3.4.4-pre9
+    + fixed a lockup when using `/// @name'
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Sat 24 Jun 2000 12:16:18 AM EEST
+    + java.ll: sometimes a class or member declaration was preceded by a lot of
+      `public', `private' and `protected' words; fixed
+    + html.cc: in Java mode package memo descriptions does not apper in indexes;
+      the title was always preceded by a dot; fixed
+      (patch by Daniel Cioata <danielc@netappi.com>)
+
+Wed 21 Jun 2000 12:05:53 AM EEST
+    + couple of more IDL tweaks
+      (patch by Randy Roesler <rroesler@mdsi.bc.ca>)
+    + added support for `<STRONG> ... </STRONG>', `&amp;' and `<BR>'
+      (suggested by Nayuta Taga <nayuta@i.am>)
+
+Mon 19 Jun 2000 07:31:54 PM EEST
+    + doc2html.ll: translate `\ ' to `&nbsp;'
+      (suggested by Mark Lebius <mark.lebius@gmx.de>)
+
+Sun 18 Jun 2000 04:19:17 PM EEST
+    + cpp.ll: fixed one more enum parsing bug
+      (reported by Peer Sommerlund <peer.sommerlund@netman.dk>)
+    + html.cc: fixed title for subentries' pages
+
+Sat 17 Jun 2000 11:12:00 PM EEST
+    + 3.4.4-pre8
+    + Entry.cc: renamed `mergeCCFunctions' to `mergeEntries' and made it
+      generic, so it handles now every entry, not only functions
+    + fixed a bug introduced when fixing enums parsing
+
+Thu 15 Jun 2000 10:15:42 PM EEST
+    + 3.4.4-pre7
+    + fixed inner namespaces parsing
+
+Sun 11 Jun 2000 12:45:30 AM EEST
+    + 3.4.4-pre6
+    + documentation updates
+
+Fri 09 Jun 2000 11:30:49 PM EEST
+    + preliminary IDL support
+      (patch by Randy Roesler <rroesler@mdsi.bc.ca>)
+    + fixed parsing partially specialized templates
+    + don't document namespaces which are not doc++-commented
+      (reported by Oskar Enoksson <oseno@mai.liu.se>)
+
+Mon 05 Jun 2000 10:11:50 AM EEST
+    + html.cc: can substitute entry-specific data into that entry'
+      documentation footer too
+
+Sat 03 Jun 2000 04:25:18 PM EEST
+    + added russian (unix/koi8, dos/dos, win32/win) translation
+      (patch by Ernest Poletaev <ernest@setcorp.ru>)
+
+Thu 01 Jun 2000 11:10:30 PM EEST
+    + 3.4.4-pre5
+    + 122 people on the mailing list
+
+Tue 30 May 2000 11:13:08 PM EEST
+    + added `\includegraphics' as synonim for `\IMG'
+    + implement `\TEX' tag for TeX mode, too
+    + added `\date' to insert current date and time into documentation
+      (patches by Thomas Hampp <thomas@hampp-bahnmueller.de>)
+
+Sat 27 May 2000 07:52:52 PM EEST
+    + added support for `friend' keyword; created a separate area for friends
+      (suggested by Joseph E. Van Riper III <fleeb@fleeb.com> and others)
+
+Sat 27 May 2000 07:28:55 PM EEST
+    + added `\IMG{...}' to insert images into documentation
+    + html.cc: provided `toc.html' where Table of Contents goes
+      (patches by Thomas Hampp <thomas@hampp-bahnmueller.de>)
+
+Wed 24 May 2000 09:56:19 PM EEST
+    + 3.4.4-pre4
+    + fixed enums parsing (last field was always documented)
+      (reported by Michael Rumpf <michael.rumpf@brokat.com>)
+
+Tue 23 May 2000 10:44:16 PM EEST
+    + added `\Label{...}' so can specify cross-references (`<A NAME=...></A>')
+    + added `@field' tag to document types and enums
+    + support internal and external documents
+      (adapted from patch by Real-Time Innovations, Inc <vince@rti.com>)
+    + fixed `-T' option
+
+Fri 19 May 2000 10:58:20 PM EEST
+    + Entry.cc: `makeFullName(McString&)' was called even if not in Java mode
+      (reported by Mark Lebius <mark.lebius@hut-gmbh.de>)
+
+Sun 14 May 2000 04:35:50 PM EEST
+    + 3.4.4-pre3
+    + optionally scan the `#include'ed header files
+    + added JavaDoc 1.2 compliant `@link' tag
+
+Sat 13 May 2000 04:47:28 PM EEST
+    + html.cc: change the link to doc section from the bullet to entry's name
+      (suggested by Yannis Bres <Yannis.BRES@cma.inria.fr> and others)
+    + Entry.cc: fixed merging group function members
+      (adapted from patch by Knut Stolze <stolze@informatik.uni-jena.de>)
+    + added JavaDoc 1.2 compliant `@deprecated' and `@since' tags
+
+Fri 05 May 2000 12:10:05 AM EEST
+    + 3.4.4-pre2
+    + added a configuration file which contains all the options etc.
+      (suggested by Stefan Reichoer <stefan.reichoer@riic.at> and others)
+    + html.cc: can substitute class-specific data into that class'
+      documentation header
+      (patch by Lyle Johnson <jlj@cfdrc.com>)
+
+Wed 03 May 2000 02:55:11 PM EEST
+    + Entry.cc: mergeCCFunctionInHeader: correct lookup for stand-alone
+      functions
+    + Entry.cc: separateArguments: don't use parameters name in comparations
+    + main.cc: fixed `-nd' option
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Tue 02 May 2000 11:09:31 PM EEST
+    + 3.4.4-pre1
+    + crufty docbook support
+      (patch by Caolan McNamara <caolan@csn.ul.ie>)
+
+Mon 01 May 2000 05:09:04 PM EEST
+    + cpp.ll: correct handling of `{' etc.
+    + McDirectory.h: `strcasecmp()' is not ANSI compliant
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Fri 28 Apr 2000 04:04:47 PM EEST
+    * 3.4.3 released
+
+Tue 25 Apr 2000 09:45:33 PM EEST
+    + 3.4.3-pre11
+
+Mon 24 Apr 2000 10:52:24 PM EEST
+    + html.cc: correct sorting for HTML class graphs
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Sun 23 Apr 2000 03:47:34 PM EEST
+    + if files are included into the documentation using `//@Include', the file
+      name is the name of the top level include file for all entries; fixed
+      (patch by Thomas Hampp <thomas@hampp-bahnmueller.de>)
+
+Sun 23 Apr 2000 02:20:46 AM EEST
+    + 3.4.3-pre10
+    + fixed the `extern "C"' problem
+      (reported by Knut Stolze <stolze@informatik.uni-jena.de>)
+    + added `@filename' tag that force a manual entry to go to a specified file
+
+Fri 21 Apr 2000 11:58:30 PM EEST
+    + the documentation for a class or group can now optionally be printed
+      before the class or group in HTML output
+      (patch by Thomas Hampp <thomas@hampp-bahnmueller.de>)
+
+Wed 19 Apr 2000 10:15:53 PM EEST
+    + 3.4.3-pre9
+
+Sun 16 Apr 2000 09:55:16 PM EEST
+    + 3.4.3-pre8
+    + doc2html.ll: scope resolution operator was ignored when used to refer to
+      the global scope
+      (reported by Jani Kajala <kajala@mappi.helsinki.fi>)
+
+Sat 15 Apr 2000 06:59:24 PM EEST
+    + 3.4.3-pre7
+    + docify.ll: docifying forward declarations was causing problems
+      (reported by Peer Sommerlund <peer.sommerlund@netman.dk>)
+    + cpp.ll: classes/structs/etc. names that contained a modifier didn't get
+      properly documented
+      (reported by David Bosschaert <david.bosschaert@iona.com>)
+
+Sun 09 Apr 2000 11:12:22 PM EEST
+    + enums inside private section of classes were documented
+      (reported by Jani Kajala <kajala@mappi.helsinki.fi>)
+
+Sun 09 Apr 2000 01:26:13 AM EEST
+    + 3.4.3-pre6
+    + html.cc: include custom HTML header in `index.html', `HIER.html',
+      `HIERjava.html' and `General.html'
+      (patch by Christian <chipx86@portaldesign.net>)
+
+Sat 08 Apr 2000 11:58:28 PM EEST
+    + added REPORTING-BUGS
+
+Fri 07 Apr 2000 07:41:53 PM EEST
+    + cpp.ll: small typo fixed
+      (patch by Makay Arpad <makay@cc.u-szeged.hu>)
+
+Tue 04 Apr 2000 10:49:26 PM EEST
+    + gifs.h: removed `down.gif' and `logo.gif'
+
+Mon 03 Apr 2000 10:40:53 AM EEST
+    + 3.4.3-pre5
+    + html.cc: fixed that spurious "duplicate entries" problem
+      (reported by Dan Kegel <dank@alumni.caltech.edu> and others)
+
+Fri 31 Mar 2000 10:27:42 PM EEST
+    + 3.4.3-pre4
+    + parsing trailing comments didn't work; fixed
+      (reported by Lyle Johnson <jlj@cfd1.cfdrc.com>)
+
+Wed 08 Mar 2000 07:55:20 PM EEST
+    + 3.4.3-pre3
+
+Mon 27 Mar 2000 10:42:26 PM EEST
+    + 3.4.3-pre2
+    + tested on i386-unknown-freebsd4.0
+      (reported by Ruslan Shevchenko <Ruslan@Shevchenko.Kiev.UA>)
+
+Sat 25 Mar 2000 04:55:16 PM EET
+    + html.cc: small fixes
+      (patch by Lyle Johnson <jlj@cfd1.cfdrc.com>)
+
+Wed 22 Mar 2000 10:38:23 PM EET
+    + partial support for doxygen-style tags (to make transition from doxygen
+      to DOC++ painless :))
+
+Fri 17 Mar 2000 06:11:23 PM EET
+    + doc2html.ll: small fixes
+      (patch by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Tue 14 Mar 2000 07:54:10 PM EEST
+    + 3.4.3-pre1
+
+Sun 12 Mar 2000 11:36:11 PM EET
+    + added gettext to the distribution; provided japanese translation
+      (patch by Tange Toshio <t-tange@ats.nis.nec.co.jp>)
+
+Fri 10 Mar 2000 10:50:31 PM EET
+    + small compile fixes for Debian 2.1 (gcc 2.91.60)
+      (reported by Emile Snyder <emile@reed.edu>)
+
+Sun 05 Mar 2000 03:54:53 PM EET
+    * 3.4.2 released
+    + 106 people on the mailing list
+    + properly turn on mathmode inside `\begin{eqnarray}' ... `\end{eqnarray}'
+      (reported by Emil Briggs <emil@briggspack.com>)
+
+Tue Feb 29 22:35:14 2000
+    + couple of corrections for Stefan's patch
+    + Entry.cc: everything was sorted out
+    + doc2tex.ll: backout the TeX output fixes
+
+Sun Feb 27 21:59:18 2000
+    + doc2tex.ll: minor TeX output fixes
+    + sorting didn't work properly
+    + guessing of Java package name fixes
+    + inner classes messed up the class graphs
+      (patch by Stefan Tandecki <s.tandecki@tu-bs.de>)
+
+Mon Feb 21 23:28:52 2000
+    + cpp.ll: the rules for filtering preprocessor statements was killing too
+      many things
+      (patch by Leon Bottou <leonb@research.att.com>)
+
+Sun Feb 20 18:19:44 2000
+    + html.cc: fixed namespaces and inner classes links
+
+Sat Feb 19 23:09:46 2000
+    + cpp.ll: enhancement for parameters' documentation
+      (patch by Robert Jongbloed <robertj@equival.com.au>)
+    + added `@precondition', `@postcondition' and `@invariant'
+      (patch by Uwe Matthaeus <uwe.matthaeus@guehring.de>)
+
+Fri Feb 18 19:28:09 2000
+    + cpp.ll: fix forward class declarations parsing
+      (patch by Radtke Robert <Robert.Radtke@plk.af.mil>)
+
+Thu Feb 17 23:30:07 2000
+    + html.cc: show methods within a class when using `//@{' and `//@}'
+    + doc2html.cc: fix handling of german umlauts
+      (patch by Leon Bottou <leonb@research.att.com>)
+
+Sun Feb 13 22:36:57 2000
+    + improved method to resolve the Java's packagename
+      (patch by Paul C. Kunysch <illume@gmx.net>)
+    + main.cc: don't document private members when `-A' is used, but only when
+      `-p' is used
+      (reported by John Backstrand <john.backstrand@e-game.com>)
+
+Fri Feb 11 10:19:14 2000
+    + new option: `--suffix': change HTML suffix
+    + removed `--short-filenames' which was made obsolete
+      (patch by Paul C. Kunysch <illume@gmx.net>)
+
+Tue Feb  1 23:43:45 2000
+    * 3.4.1 released
+
+Wed Jan 26 12:50:13 2000
+    + cpp.ll: corrected parsing of `#ifndef' etc.
+      (reported by Jeff Lloyd <jlloyd@algorithmics.com>)
+
+Mon Jan 24 22:56:08 2000
+    + html.cc: namespace content output fixed
+      (reported by Peer Sommerlund <peer.sommerlund@netman.dk>)
+
+Sun Jan 23 11:37:38 2000
+    + doc2tex.ll: properly convert ``<PRE>...</PRE>'' into TeX
+      (reported by Jeff Lloyd <jlloyd@algorithmics.com>)
+
+Mon Jan 17 22:23:34 2000
+    + doc2html.ll: support for more special characters
+    + doc2tex.ll: properly process tildes; other fixes/enhancements
+      (patch by Leon Bottou <leonb@research.att.com>)
+
+Mon Jan 10 23:47:18 2000
+    + `@return' can have more than one line
+       (patch by Uwe Matthaeus <uwe.matthaeus@guehring.de>)
+
+Sun Jan  9 22:55:16 2000
+    + fixed inner namespace parsing problems
+      (reported by Bo Lorentsen <bl@belle.dk>)
+
+Sun Jan  2 15:07:40 2000
+    + `<' and `>' (especially on templates) were output as is in HTML output,
+      even if `-H' flag was used; fixed
+      (patch by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Thu Dec 30 19:19:00 1999
+    * jumped to 3.4
+
+Thu Dec 30 00:31:41 1999
+    + 82 people on the mailing list
+
+Mon Dec 26 17:44:50 1999
+    + html.cc: content of `classHeader.inc' wasn't copied into the HTML header
+      (reported by Antonio Carzaniga <carzanig@cs.colorado.edu>)
+
+Sun Dec 25 22:14:57 1999
+    * 3.3.17 released
+
+Sun Dec  5 13:09:17 1999
+    + java.ll: provide nested classes treatment
+    + java.ll: support members with "default" visibility
+      (patch by Erik Pischel <pischel@informatik.hu-berlin.de>)
+    + html.cc: made table generation consistent
+      (reported by Thomas Wicklund <wicklund@intellistor.com>)
+    + removed small warnings for MS Visual Studio 6
+
+Sat Nov 27 23:49:13 1999
+    + doc2tex.ll: `&' and `%' were escaped; fixed
+    + cpp.ll: ignore `////' comments
+
+Sat Nov 20 22:57:37 1999
+    + 3.3.16 released
+
+Thu Nov 11 00:14:39 1999
+    + fixed a `^' parsing bug in math mode
+      (reported by Kirill Korotushenko <kirillk@princeton.edu>)
+
+Sat Nov  6 22:29:57 1999
+    + fixed a core dump (which shouldn't happen, though)
+      (patch by Bo Lorentsen <bl@belle.dk>)
+
+Fri Nov  5 00:18:56 1999
+    + doc2tex.ll: TeX math delimiters `\[' and `\]' were not recognized
+      (patch by Philipp Frauenfelder <pfrauenf@debian.org>)
+    + couple of more gcc 2.95 warnings fixed
+      (patch by Thomas Wicklund <wicklund@intellistor.com>)
+    + removed `const' and `inline' checking in `configure.in' since they
+      caused compilation errors
+
+Mon Nov  1 22:35:41 1999
+    + improved the "memo" end of text detection
+    + fixed tons of gcc 2.95 warnings
+      (patch by Thomas Wicklund <wicklund@intellistor.com>)
+    + got rid of spurious gcc 2.95 errors (at least I hope so)
+
+Tue Oct 26 22:00:02 1999
+    + Entry.cc: multiple doc++-commented declarations are merged
+      (suggested by Bo Lorentsen <bl@belle.dk> and others)
+
+Mon Oct 25 23:20:09 1999
+    + cpp.ll: fixed template, `inline', `static', `volatile', `virtual' handling
+    + html.cc: using `\Ref' to reference a class member was broken; fixed
+    + html.cc: items that appear on the General page had the definition linked
+      to the General page; corrected
+      (patch by Mark Trumpler <mark@sst.teradyne.com>)
+
+Fri Oct 22 10:29:50 1999
+    + if a namespace is declared in more than one place, a docified comment is
+      added to it only if the comment precides the first declaration which is
+      read; fixed
+      (patch by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Tue Oct 19 23:39:59 1999
+    + small HTML output pedantic fixes
+      (reported by Ingo Koch <ingo.koch@ikoch.de>)
+
+Thu Oct 14 22:39:35 1999
+    + doc2tex.ll: allow `$<$' and `$>$' to work
+    + main.cc: allow GIFs generation for equations to work
+    + tex2gif.cc: correct the names of the generated GIF files (seems that
+      they were sometimes out of order)
+      (patch by Curtis L. Janssen <cljanss@aros.ca.sandia.gov>)
+
+Tue Oct 12 21:50:29 1999
+    + better fix for the `//' comments problem
+      (patch by Thomas Wicklund <wicklund@intellistor.com>)
+
+Sun Oct 10 22:25:45 1999
+    + add an explicit `@doc' tag
+    + change memo vs doc parsing so it terminates the memo field after
+      punctuation followed by white space
+    + change memo vs doc parsing so that a blank line will end the memo
+      field
+    + if a stand alone block of documentation doesn't start with an `@name'
+      directive, use the memo text as the name
+    + add support for the HTML `<pre>' tag in a manner identical to the LaTeX
+      `\begin{verbatim}' macro
+      (patch by Thomas Wicklund <wicklund@intellistor.com>)
+
+Wed Oct  6 22:36:21 1999
+    + McString.h was missing a space in a boldface control
+    + classgraph.h uses ``\item{^}'' and the caret (^) is significant to LaTeX
+    + classgraph.h: `\item{.}' changed to `\item{dot}'
+      (patch by Thomas Wicklund <wicklund@intellistor.com>)
+
+Thu Sep 30 22:49:11 1999
+    + all the `//' comments were eaten, except if they were prefixed by
+      tabs or spaces; fixed
+      (reported by Dimitri Papadopoulos <dpo@club-internet.fr>)
+
+Mon Sep 20 11:16:58 1999
+    + accept doc++-comments inside C comments
+      (patch by Till Bubeck <tbubeck@yahoo.com>)
+    + added forward class declarations support
+
+Wed Sep 15 21:50:07 1999
+    + 3.3.15 released
+
+Tue Sep 14 22:25:49 1999
+    + first steps to create `equate', a stand-alone program, which will
+      generate equation GIFs
+    + tex2gif.cc: small enhancements
+      (patch by Paul Schulz <pauls@caemrad.com.au>)
+
+Sun Sep 12 23:04:34 1999
+    + finished `using namespace' support
+
+Sun Aug 22 21:20:56 1999
+    + if some item does not include an entry in the TOC, a small vertical space
+      is still generated
+    + `%' and `&' signs were not escaped; fixed
+    + parameter and exception documentations are formatted using tabular
+      environments so the decriptions are nicely aligned below each other
+    + if there is no class graph, no entry for it is generated within the TOC
+      (patch by Gottfried Ganssauge <ganssauge@mpwsoftware.de>)
+
+Tue Aug 10 16:21:07 1999
+    + new option: `--no-class-graph': do not generate class graph in TeX mode
+
+Tue Aug  8 17:29:35 1999
+    + 3.3.14 released
+
+Wed Aug  4 22:31:40 1999
+    + allow underscores in math mode to be treated correctly
+      (patch by Paul Schulz <pauls@caemrad.com.au>)
+
+Sat Jul 17 22:40:06 1999
+    + generating TeX source code listing works again
+
+Mon Jun 28 21:48:28 1999
+    + readfiles.ll: the brace counting algorithm fixed to ignore braces which
+      are within string literals and constants
+    + java.ll: class and interface names were run together with the protection
+      keywords
+    + html.cc: sections in the HTML files weren't separated
+      (patch by Kumaran Santhanam <kumaran@alumni.stanford.org>)
+
+Sat Jun 26 23:48:21 1999
+    + html.cc: package list didn't output properly; fixed
+    + main.cc: `--java' won't turn HTML syntax on by default anymore
+      (patch by Kumaran Santhanam <kumaran@alumni.stanford.org>)
+    + more Win32 enhancements
+      (thanks to Dan Fandrich <danf@npsnet.com>)
+
+Thu Jun 24 22:31:27 1999
+    + html.cc: protected members were multiple documented in some situations
+      (patch by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Wed Jun 23 15:54:07 1999
+    * 3.3.13 released
+
+Tue Jun 22 19:16:39 1999
+    + small code cleanups
+    + fixed a GIFs writing problem
+    + small documentation updates
+    + nasty bug fixed: `-J' option didn't turn Java mode on, so parsing Java
+      sources didn't work in 3.3.12
+
+Wed Jun 16 11:20:32 1999
+    * 3.3.12 released
+
+Mon Jun 14 22:46:14 1999
+    + cpp.ll: fixed a minor reference problem (name of base classes can contain
+      ``:'')
+      (patch by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Sun Jun 13 12:32:44 1999
+    + included in the source directory: `config.h.win32', `makefile.w32',
+      `unistd.h.win32'
+      (thanks to Dan Fandrich <danf@npsnet.com>)
+
+Sat Jun 12 23:09:44 1999
+    + documentation updates
+
+Sat Jun 12 12:02:35 1999
+    + new option: `--full-toc': show class/struct members in the HTML TOC
+      (suggested by Caminati Carlo <c.caminati@selta.it>)
+
+Wed Jun  9 22:58:24 1999
+    + small Win32 fixes + Makefile
+      (patch by Dan Fandrich <danf@npsnet.com>)
+    + don't show class members in the TOC; do the same with structure members
+      (suggested by Caminati Carlo <c.caminati@selta.it> and others)
+    + cpp.ll: parsing inner classes/namespaces works again
+      (patch by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Tue Jun  8 10:50:33 1999
+    + html.cc: in showMembers() the sections struct lacks an entry for private
+      classes; fixed
+      (reported by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Mon Jun  7 22:30:10 1999
+    + cpp.ll: inline definitions works fine again
+      (reported by Frank Muzzulini <muzzulini@comsoft.de>)
+
+Fri May 28 14:05:15 1999
+    + doc2html.ll: fixed a HTML table output problem (a `<TR>' was missing)
+    + doc/reference.dxx: corrected some typos
+      (patch by Daniel Bullok <woodhead@uiuc.edu>)
+
+Wed May 26 16:55:58 1999
+    + added `PLATFORMS'
+
+Tue May 25 17:00:26 1999
+    + html.cc: couple of HTML output fixes and minor code cleanups
+    + included ability to parse inner classes
+      (suggested by Wijk van der Ir <ivo@cs.vu.nl> and many others)
+    + added support for C++'s `namespace' by popular demand
+
+Fri May 21 10:03:56 1999
+    + doc/reference.dxx: backslashed a `#define' word
+      (patch by Gordon Russell <gor@dcs.napier.ac.uk>)
+
+Wed May 19 00:44:46 1999
+    + tested on mips-sgi-irix6.5
+      (reported by Bill Seligman <seligman@nevis1.nevis.columbia.edu>)
+
+Thu May 13 22:40:52 1999
+    + fix to compile with Borland C++ 4.5
+      (patch by Dan Fandrich <danf@npsnet.com>)
+
+Wed May 12 21:40:02 1999
+    + tested on i586-unixware-5-7.0.1
+      (reported by Guenter Hellstern <hellstern@comsoft.de>)
+
+Sat May  8 23:02:23 1999
+    + 71 people on the mailing list
+
+Fri Apr 30 13:15:14 1999
+    + readfiles.ll: can use `/*@Include:' too, as stated in documentation
+      (patch by Nakhoon Baek <nhbaek@palgong.kyungpook.ac.kr>)
+    + new option: `-I FILE': read input files specified in FILE
+      (patch by Michael DiCuccio <mdicuccio@ht.com>)
+    + added GNU-style long options
+
+Fri Apr 16 17:51:04 1999
+    * 3.3.11 released
+
+Thu Apr 15 19:12:59 1999
+    + cpp.ll: typedefs like `typedef int int_t' goes into the variable section;
+      fixed - they go now into the typedef section
+      (reported by Mischa Courtin <Mischa.Courtin@ehv.ce.philips.com>)
+
+Wed Apr 14 23:45:20 1999
+    + generate references for functions and variables, too
+      (reported by Mischa Courtin <Mischa.Courtin@ehv.ce.philips.com>)
+    + prefix method names with the corresponding class name in HTML index
+
+Tue Apr 13 21:38:14 1999
+    + cpp.ll: correctly parse inline functions
+      (reported by Andreas Eckert <aeckert@rhrk.uni-kl.de>)
+    + doc2tex.ll: fixed a `\cxxSee' bug
+      (reported by Diego Santa Cruz <Diego.SantaCruz@epfl.ch>)
+
+Tue Apr 13 15:15:02 1999
+    + found some old change logs, since version 1.0 (dated Jan 25 1996);
+      included here
+
+Mon Apr 12 23:47:24 1999
+    + the underscore `_' character was slashed in LaTeX output; fixed
+      (reported by Andrea Emilio Rizzoli <rizzoli@planet.it>)
+    + comment.ll (parseDoc): fixed a long-standing bug - if the `@memo' field
+      was longer than the `@doc' field, the `@doc' field was cleared
+      (reported by Mischa Courtin <Mischa.Courtin@ehv.ce.philips.com>)
+    + `\Ref' and `\URL' macros works again!
+
+Sun Apr 11 19:18:41 1999
+    + documentation updates
+    + we are able (again!) to generate references in the manual section
+
+Sat Apr 10 19:20:47 1999
+    + reduced output verbosity
+
+Sat Apr 10 16:38:44 1999
+    + comment.ll: fixed a `@memo' tag bug
+      (reported by Mischa Courtin <Mischa.Courtin@ehv.ce.philips.com>)
+
+Sat Mar 27 13:12:37 1999
+    + fixes to compile with Watcom C++ 10.6 and Visual C++ 6.0
+    + little enhancements
+      (patch by Dan Fandrich <danf@npsnet.com>)
+
+Tue Mar  9 12:09:32 1999
+    * 3.3.10 released
+    + source files for documentation are now included in the package
+    + DOC++ can parse again `.dxx' files
+
+Thu Mar  4 22:58:43 1999
+    + added `GENERATOR' informations in HTML headers
+    + couple of HTML headers fixes
+    + added `ALT=[more]' when using those "ball" images in HTML output
+      (suggestions by Dan Fandrich <dan@fch.wimsey.bc.ca>)
+    + move generall stuff from cpp.ll to comment.ll
+      (patch by Tom Wicklund <wicklund@mred.intellistor.com>)
+
+Tue Feb 23 18:28:05 1999
+    + tested on hppa1.1-hp-hpux10.20 (a small fix needed)
+      (reported by Joerg Burmeister <joerg.burmeister@tek.com>)
+    + html.cc: small bug fixed (compilation errors on HP/UX)
+
+Mon Feb 22 17:16:20 1999
+    + doc2html.ll: added support for `\texttt', `\textit' and `\textbf' macros
+    + doc2html.ll: added support for german characters
+    + doc2tex.ll: corrected a `\cxxSee' bug
+      (patch by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Mon Feb 22 16:50:50 1999
+    + doc.h: updated the version number
+    + docify.ll: output typedef's comments
+      (patch by Tange Toshio <t-tange@ats.nis.nec.co.jp>)
+
+Thu Feb 18 10:35:23 1999
+    + Entry.cc: fixed a memory leak
+      (patch by Dmitry Derevyanko <dmitryd@robotics.eecs.berkeley.edu>)
+
+Wed Feb 17 11:23:26 1999
+    * 3.3.9 release
+    + small clean-ups
+    + HTML TOC fixes (general stuff didn't appear in there)
+
+Tue Feb 16 12:51:56 1999
+    + new option: `-D': select minimum depth in LaTeX TOC
+    + doc2tex.ll: the last line of a paragraph was justified; paragraph breaks
+      are not respected anymore; fixed
+    + cpp.ll: when in a memo section two words are separated by a newline, the
+      newline should be replaced by a space, instead it was replaced by nothing
+      and the two words got stuck; fixed
+      (patch by Miguel Gonzalez Cuadrado <mgonzalez@sfe.indra.es>)
+    + `ClassGraph.java' is again in the package (it was deleted by me)
+
+Sun Feb 14 18:55:51 1999
+    + html.cc: fix so doc++ can handle global overloaded functions
+      (patch by Charl Botha <cpbotha@bigfoot.com>)
+
+Sun Feb 14 12:25:08 1999
+    + using GNU automake to automagically create the Makefiles
+
+Thu Feb 11 16:04:28 1999
+    + cpp.l: added rules to filter preprocesor directives
+      (patch by Solomon Foster <colomon@ralf.org>)
+
+Wed Feb 10 18:39:40 1999
+    + @see bug corrected for LaTeX output
+      (patch by Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Mon Feb  8 23:49:00 1999
+    + successfully tested on alpha-dec-osf4.0
+      (thanks to Jeremie Petit <jeremie.petit@digital.com>)
+
+Fri Feb  5 14:17:17 1999
+    + new option: `-ei': generate TeX index
+    + new option: `-nd': do not include `#define' macros in output
+    + couple of doc2tex.l fixes
+      (patch by Stefan Tandecki <s.tandecki@tu-bs.de>)
+
+Tue Feb  2 21:38:56 1999
+    * 3.3.8
+
+Sun Jan 31 17:43:56 1999
+    + added the output of a version number
+    + docxx.sty improvements
+    + unknown packages/classes won't be included in the TOC, but will appear in
+      class hierarchies
+    + new option for LaTeX output: "-ep": print only class graphs
+      (patch by Stefan Tandecki <s.tandecki@tu-bs.de>)
+
+Fri Jan 29 18:55:19 1999
+    + changed HTML TOC entries to have correct links
+
+Thu Jan 28 23:35:22 1999
+    + fixed the "operator()" parsing bug
+    + corrected a nasty bug: everything was documented, even it wasn't
+      doc++-commented
+    + removed the "extern" rule
+      (patch by Miguel Gonzalez Cuadrado <mgonzalez@sfe.indra.es>)
+
+Tue Jan 26 23:09:41 1999
+    + set return types for couple of more operators, to make EGCS happy
+      (patch by Edward Jason Riedy <ejr@u0.cs.berkeley.edu>)
+    + two small bugs fixed (no output to stdout was performed) in Entry.cc
+      (reported by Tange Toshio <t-tange@ats.nis.nec.co.jp>)
+    + small Makefile.in corrections
+      (patch by Michael Meeks <michael@imaginator.com>)
+
+Mon Jan 25 19:09:59 1999
+    + successfully tested on i586-gnu-cygwin32
+      (thanks to Johan Redestig <pt95jre@student.hk-r.se>)
+    + general stuff goes now by default in `General.html'; it can be disabled
+      however using `-P'
+
+Sun Jan 24 17:51:47 1999
+    * version 3.3.7 released
+    + updated the CVS repository
+      (thanks goes to Michael Meeks <michael@imaginator.com>)
+
+Sun Jan 24 17:49:32 1999
+    + operators are now parsed correctly
+    + corrected the bug that made comments being eaten after the closing brace
+      of a function body
+    + identifiers names are now case sensitive
+    + resolved an obscure bug that made doc++ dump core sometimes
+    + no more duplicated functions in documentation
+      (patch by Solomon Foster <colomon@ralf.org>)
+
+Sat Jan 23 19:33:17 1999
+    + no documentation was generated with just one class; corrected
+      (reported by Charl Botha <cpbotha@dsp.sun.ac.za>)
+
+Thu Jan 21 22:46:05 1999
+    * version 3.3.6 released
+
+Wed Jan 20 23:35:49 1999
+    + couple of more HTML-related fixes
+    + added detection of host type in configure script
+    + included docxx.sty in the package (it was deleted in a previous release)
+
+Fri Jan 15 10:01:18 1999
+    + successfully tested on rs6000-ibm-aix-4.2
+      (thanks to Knut Stolze <stolze@informatik.uni-jena.de>)
+
+Thu Jan 14 19:12:19 1999
+    + small correction in section type enum
+      (patch by Tange Toshio <t-tange@ats.nis.nec.co.jp>)
+
+Wed Jan 13 17:34:02 1999
+    + removed the "-O2" flag at compilation (very long compilation time and
+      huge binaries when using egcs)
+
+Tue Jan 12 23:11:36 1999
+    + corrected the "//@{ ... //@}" problem (documentation wasn't generated)
+      (reported by Fred Pesch <pesch@club-internet.fr>)
+    + HIERjava.html "bug": "aindex.html" was used instead of "index.html"
+      (reported by Thomas Langen <langen@eudoramail.com>)
+
+Mon Jan 11 21:41:31 1999
+    + added "-et" option to include a title page in the LaTeX output
+    + changes to allow several arguments for "-ep" option, so it is possible
+      to include more than one package declaration in the output file
+      (patch by Stefan Tandecki <s.tandecki@tu-bs.de>)
+
+Fri Jan  8 23:17:28 1999
+    * DOC++ 3.3.5 released
+
+Sat Jan  2 22:52:23 1999
+    + HTML documentation included in the package
+    + Makefile rewrite
+    + added an autoconf script to configure the package
+    + more source cleanups
+    + added COPYING, INSTALL, README, doc/ChangeLog, doc/TO-DO, doc/manual/
+
+Sat Dec 19 00:07:31 1998  Dragos Acostachioaie <dragos@iname.com>
+    + took the doc++ maintainer job
+
+
+1998/12/10
+   - Another patch from Dragos cleaning up some comments / redundant code,
+     and putting all log stuff in the 'Changelog' file.
+
+1998/10/05
+   - Added a patch from Dragos to fix certain header / footer problems
+     seemingly.
+   - Several code fixes removing minor warnings
+   - New version numbering scheme like Linux kernel numbering, now:
+     doc++ 3.3.4
+
+1998/09/10
+   - Created doc++ mailing list to subscribe send mail to:
+     docpp-request@imaginator.com with 'subscribe ' followed by your
+     E-mail address in the body of the code. Alternativley if you use a
+     real Operating system you can:
+        echo 'subscribe my@email' | mail docpp-request@imaginator.com
+
+1998/08/21
+   - A full version, Beta-3.3 / 3
+
+1998/08/20
+   - Spent the last 1.5 days chasing a daft compiler bug, fixed the source
+     so it works with our compiler...
+
+1998/08/18
+   - Cut down java TOC to just packas, classes and interfaces.
+   - Removed loads of debug
+   - Set default option to kill or stick in 'General' file all children
+     of root that don't have their own page.
+   - Centralised doc/memo output in html.cpp, removing tiresome redundancy.
+   - Made the '-J' switch turn HTMLsyntax on.
+   - Fixed method declarations to remove redundant class specifier that was
+     slipping through eg.
+        class name {
+          name::method() ;
+        };
+     method no longer drags a redundant 'name::' prefix with it.
+
+1998/08/18
+   - Spent today struggling with java, it seems to be a little broken. The
+     different results from parsing the java sourcetree backwards & forewards
+     were due to bracket miscounting / poison sources.
+   - Major flex change in java.l
+   - Killed most general rules, they are the devils tool :-)
+     /* This bracket doesnt matter now { */
+   - Added a string / char state to handle:
+     char a = '{' ;
+     String b = new String ("/** Hello") ;
+   - Spent a while hunting and fixing:
+     /* Isn't it nasty when you start a char initialiser on your isn't */
+     char a = '\'' ;
+   - Added support for C++ style comments ie. '//'
+   - Fixed trivial bug in name of HIERjava file I had introduced.
+   - Onwards with getting the '-J' : Javadoc compatibility flag a bit neater.
+
+1998/08/14
+   - Added macro 'worthDoing' to findSub such that only the names of entries
+     with section CLASS_SEC | UNION_SEC | PACKAGE_SEC | INTERFACE_SEC are
+     searched.
+   - Fixed bug in environment variable handling, was missing the last argument
+   - Removed 'dmsg' routine and calls from cpp.yy, perhaps this'll accelerate
+     parsing.
+   - Fixed the cache from yesterday, now names are copied into the cache.
+   - Turned Gif generation off by default ( this never worked for me )
+   - Started looking at the problems my mods have caused Java
+   - Added a hash of java keywords
+   - Re-wrote my list / sorting mods to deal with heirarchical package display.
+   - Noticed the java stuff is somewhat suboptimal, the -J flag doesn't do a
+     good job of javadoc compatibility. Will spend time on this.
+   - Noticed wierdness with reversing the (originaly alphabetic) order of
+     arguments when in java mode, this gets things 'Well wrong' TM.
+     Perhaps this is due to some cunningness I've just noticed in findSub that
+     assumes they are sorted ? ...
+
+1998/08/13-Evening
+   - Tried to test the doc++ automatic manual generation with no success :-(
+   - Fixed a bug I'd introduced fixing the fix to a bug I thought I'd
+     fixed. Now I hope both array initialisations, and plain numeric ones
+     work ( they seem to )
+        int variable[]= { 1, 2, 3 };
+        int numeric = 3 ;
+   - Fixed bug in finding comments after semi-colons, would swallow the 'c'
+     in char:
+        void function();char anotherfunction();
+   - Very slow building list, so implemented several speedups in makeHtml
+     and Entry.cpp::getRefEntry.
+   - Removed bad speedup in findStubs from yesterday.
+   - Changed StrToHtml to check for a null string sent to it before jumping
+     into reams of flex.
+   - Changed StrToHtml's arguments to take a refence to a McString for rapid
+     checking of string lengths.
+   - Attacked getRefEntry, examined its typical arguments, and discovered most
+     of them were reserved words.
+   - Implemented fast McHashTable to quickly remove these without a
+     long-winded search.
+   - Added a cache of the last few names looked up and whether they were
+     found, this catches a large proportion of lookups.
+   - Added a check against 'General' entries, these shouldn't have links to
+     them anyway as they don't have their own page, their page is huge, and
+     there are so few real references versus a huge number of bogus finds.
+     This approx. doubled the speed of the doc++ run, from 20->11 secs.
+
+1998/08/13
+   - Overhauled the argument parsing bits, now using a McDArray of char*
+   - Added support for arguments in the environment variable 'DOC'
+   - Noted that readfile's directory handling looks nasty, but is prob.
+     too fragile to play with.
+   - Profiled code, little success but added a cache that accelerates half
+     of findSubs.
+   - Removed loads of debugging guff that was coming out all over the place
+
+1998/08/12
+   - Made type names appear in General.html, strangely they wern't
+   - Fixed stupid flex error, in handling bit widths.
+   - Updated index output, such that methods with the same name and class
+     are merged, before emitting the duplicate method class list ( in some
+     cases this removes the need for one ).
+   - Fixed support for whitespace after a #define line continuation eg:
+        #define A this_is_line_1 \      \n
+        this_is_line2
+
+1998/08/11
+   - Discovered several bugs I had introduced thinking I was fixing things
+     eg. Array initialisation and removed them. 
+   - Fixed / extended syntax to remove altogether statements of the form:
+        extern any_declaration (newlines?) ("C") { } ;
+   - Fixed bit width specifiers, although this will probably break all other
+     name parsing in a subtle way:
+        int register_a : 2;
+   - Removed limit of 200 characters in 'myOpen' that had escaped me.
+   - Fixed loss of type in:
+        int a, b, c
+     Now we get 'int a', 'int b' ... in the output instead of 'int a', 'b', ...
+   - Fixed bug in code I added to search for comments after #defines, since
+     I'm not interested in defines removed this.
+   - Fixed so that whitespace after a protection declaration works eg.
+        private   :
+   - Created an extra flex state to remove trailing semicolons after braces
+     without generating a blank entry. eg.
+        void method() { printf ("Foo") ; };
+   - Implemented duplicate resolution in the index, and revised the index
+     output system. Now duplicates get a seperate sub list, with a heading of
+     the method name, and the class names as links. This still produces odd
+     results with lots of overloaded constructors.
+   - Added a fast command line parameter, that sacrifices memory re /
+     de-allocation for speed.
+
+1998/08/10
+   - Spent all morning chasing obscure buffer overflow, caused by some
+     'extern' nastiness in the flex ( I think ), anyway resovled to
+     erradicate all arbitary buffer sizes...
+   - Added large memory saving, of truncating McDArrays ( as used in all
+     strings ) to a length of 1 ( carriage null ) when they are cleared
+     as opposed to wasting that memory.
+   - Today I realised that August is the 8th month.
+
+1998/07/07
+   - A big tar-ball of dirty sources ... I am using / testing:
+        doc++ -g -l -d html -p -A -c -q <filenames>
+
+1998/07/06
+   - A new patch, this time adding support for simple post method comments
+     in class instances ie.
+        void method(int an_arg) ; // Hello there
+     Will be commented with 'Hello There', this means a load of legacy
+     comments can be used without conversion.
+   - Forward class declarations eg.
+        // Declared lower down
+        class cForwardClass;
+     are now ignored.
+   - A new file 'General.html' is being generated which in future will hold
+     all the bits we don't know much about eg. '#defines', global variables,
+     constants etc.
+
+1998/07/05
+   - First patch against version 3.2. This is very alpha code, implementing
+     the Quantel extensions for folding comments, and fixing the odd mis-feature.
+
+1998/07/04
+   - Put up small list of improvements / un-understood bits to start on
+     after code read.
+
+1998/07/03
+   - Started code reading and noting bugs as yet uncovered to fix. First
+     stop -Wall
+
+
+   Revision 3.4  1998/07/31 09:31:29  bzfzoeck
+   ChangeLog now in doc++ format
+
+   Revision 3.3  1997/10/11 10:59:18  bzfzoeck
+   small bug
+
+   Revision 3.2  1997/10/11  10:16:50  bzfzoeck
+   Fixed filenames on pages recursively included.
+   Fixed " ... method() const;"-bug
+  
+   Revision 3.1  1997/02/12 10:40:37  bzfzoeck
+   Version 3.01. @Param und @return funktionieren jetxt auch
+   fuer globale Fkt. Added -m switch.
+
+   Revision 3.0  1997/02/04 17:49:57  bzfzoeck
+   released Version 3.0
+
+   Revision 1.7  1997/02/04 16:52:40  bzfzoeck
+   *** empty log message ***
+
+   Revision 1.6  1997/02/04 15:17:45  bzfzoeck
+   Tech@ Release (3.0).
+
+   Revision 1.4  1997/01/15 11:59:50  bzfwunde
+   - improved LaTeX environment for gifs using doc2tex parser.
+
+   Revision 1.3  1996/12/29  13:37:31  bzfzoeck
+   bug fixes.
+
+   Revision 1.2  1996/12/16 10:45:11  bzfzoeck
+   now really
+
+   Revision 1.2  1996/06/07  15:05:43  bzfzoeck
+   McHandable.h:
+   Smart pointers are implemented.
+
+   Revision 1.16  1996/11/20 16:13:22  bzfwunde
+   Bug fixes mainly in java parser.  Did not parse comments correctly.
+
+   Revision 1.14  1996/11/14 14:10:57  bzfwunde
+   Bug fixes: SoPlex documentation now works!
+
+   Revision 1.15  1996/11/18  08:49:24  bzfzoeck
+
+   Revision 1.14  1996/11/14  14:10:57  bzfwunde
+   Bug fixes: SoPlex documentation now works!
+
+   Revision 1.13  1996/11/13 14:17:23  bzfwunde
+   JavaDoc style comments for C++, C and Java
+   New C/C++ parser using only flex
+
+   Revision 1.12  1996/10/15  17:11:37  bzfwunde
+   lots of improvements ... at least for the LaTeX output and the
+   java and C++ parser.
+
+   Revision 1.12  1996/08/08  16:00:18  bzfzoeck
+   McDArray.h:
+   replaced realloc(0,size) by malloc.
+
+   Revision 1.11  1996/10/14  15:52:46  bzfwunde
+   - fixed Java-parser bug
+   - added version etc output for TeX
+
+   Revision 1.11  1996/07/16  13:49:02  bzfstall
+   McDArray.h:
+   Documentation updated.
+
+   Revision 1.10  1996/10/11  21:03:42  bzfzoeck
+
+   Revision 1.10  1996/07/01  09:44:31  bzfzoeck
+   McDArray.h:
+   Added static to the declarations of index and rindex to prevent
+   the linker from complaining about multiple defined symbols.
+
+   Revision 1.9  1996/10/07  11:46:41  bzfzoeck
+   Not yet perfect, but java inheritence is kind of implemented.
+
+   Revision 1.9  1996/07/01  09:15:17  bzfstall
+   McDArray.h: Added global template functions index() and rindex().
+
+   Revision 1.8  1996/10/07  09:44:45  bzfzoeck
+   These are generated automatically.
+
+   Revision 1.7  1996/10/07  09:40:46  bzfwunde
+   java parser included :-))))
+
+   Revision 1.6  1996/09/12  11:29:13  bzfwunde
+   completely rewritten parser for C++.
+   This one is way easier to understand and contains fewer bugs.
+
+   Revision 1.6  1996/06/17  16:38:32  bzfzoeck
+   McDArray.h:
+   Very simple string class added.
+
+   Revision 1.2  1996/08/08  16:00:21  bzfzoeck
+   McHashTable.h:
+   replaced realloc(0,size) by malloc.
+
+   Revision 1.2  1996/06/09  10:15:09  bzfzoeck
+   Major changes: doc++ no longer uses dataarray but McDArray instead.
+   - now can handle directories correctly.
+   - now handles some very simple(!) regular expressions,
+     namely anything that looks like '*.h' or '*.hh' or '*dxx' ...
+
+   Revision 1.1.1.1  1996/06/03  17:01:59  bzfzoeck
+   Initial doc++ repository
+
+   Revision 1.1  1996/10/12  20:43:27  bzfzoeck
+   McHashTable.cc:
+   Ist auch im mclib repository drin !
+
+   Revision 1.1  1996/07/17  15:27:06  bzfstall
+   McHashTable.cc:
+   Hash table added.
+
+Thu Mar 19  1996 ( release 1.05 (beta) ):
+      * Fixed bug with C comments /*@{*/ and /*@}*/
+
+Thu Feb 29  1996 :
+      *	Added JAVA scripts for generating class graphs in HTML output
+      *	Added docify programm
+      *	Bug fix for classgraphs with private base classes
+
+Fri Feb 15  1996 ( release 1.04 (beta) ):
+      * redesigned class graph generation.
+      * New structure of HTML contents page.
+      * bug fix for #s in memo strings.
+
+Thu Feb 15  1996 :
+      * fixed bug that made some entries disappear in some occations
+        for the TeX backend
+
+Wed Feb 14  1996 :
+      * fixed bug with character '%' in TeX-documentation
+      * changed documentation accordingly
+
+Wed Jan 31  1996 ( release 1.03 (beta) ):
+      * fixed a bug with the new shortcuts /**   and //*
+
+Tue Jan 30  1996 ( release 1.02 (beta) ):
+      * added options -eo -ef -ep for controlling the LaTeX environment
+      * fixed internal bug causing assertation failiour on DOS machines
+      * constructors and destructors of baseclasses do no longer show
+        up in the HTML-list of inherited members.
+      * started a FAQ
+      * structs are now treated in the same way as classes 
+      
+Mon Jan 29  1996 ( release 1.01 (beta) ):
+      * renamed doc++.sty -> docxx.sty
+      * renamed html-table of contents from classesHIER.html -> HIER.html
+      * introduced shortcuts:
+        "/// " or "/*/ " for @ManMemo:
+        and
+        "//* " or "/** " for @Doc:
+      * new command line option for short filenames (required for DOS).
+      * bugfixes:
+        * The & should no longer disapear in HTML.
+        * Declarations like 
+          array<foo,bar> dummy; should work now.
+        * German umlauts like \"a are now converted to HTML.
+
+Wed Jan 25  1996  release 1.0 (beta)

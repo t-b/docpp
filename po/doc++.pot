@@ -1,0 +1,730 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-12-22 18:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Entry.cc:102
+msgid "No file"
+msgstr ""
+
+#: src/Entry.cc:395
+#, c-format
+msgid "Make full name from `%s'\n"
+msgstr ""
+
+#: src/Entry.cc:1089
+#, c-format
+msgid "Warning: `%s %s%s' already have documentation, merging\n"
+msgstr ""
+
+#: src/Entry.cc:1156
+#, c-format
+msgid "Warning: no parent `%s' for `%s %s%s' found\n"
+msgstr ""
+
+#: src/Entry.cc:1350
+#, c-format
+msgid "`%s' found in namespace `%s'!\n"
+msgstr ""
+
+#: src/McDirectory.cc:51
+#, c-format
+msgid "No files matching `%s' found\n"
+msgstr ""
+
+#: src/McDirectory.cc:99
+#, c-format
+msgid "Can't open `%s' dir\n"
+msgstr ""
+
+#: src/equate.cc:49
+#, c-format
+msgid "equate %s, generate GIFs of equations from GIF database file\n"
+msgstr ""
+
+#: src/equate.cc:51
+msgid ""
+"Usage: equate [options] [gifdb_file]\n"
+"\n"
+msgstr ""
+
+#: src/equate.cc:52 src/main.cc:54
+msgid "Options:\n"
+msgstr ""
+
+#: src/equate.cc:53 src/main.cc:84
+msgid "  -d  --dir DIR          use DIR for the output directory\n"
+msgstr ""
+
+#: src/equate.cc:54
+msgid "  -f  --file FILE        read FILE instead of gif.db as GIF database\n"
+msgstr ""
+
+#: src/equate.cc:55
+msgid ""
+"                         (relative to . or DIR)\n"
+"\n"
+msgstr ""
+
+#: src/equate.cc:56 src/main.cc:115
+msgid ""
+"Mail bug reports and suggestions to <docpp-users@lists.sourceforge.net>\n"
+msgstr ""
+
+#: src/equate.cc:61 src/main.cc:120
+#, c-format
+msgid "Ignoring option `%s': required argument missing\n"
+msgstr ""
+
+#: src/html.cc:102
+msgid "   <TITLE>Table of Contents</TITLE>\n"
+msgstr ""
+
+#: src/html.cc:111
+msgid "   <TITLE>Hierarchy of Classes</TITLE>\n"
+msgstr ""
+
+#: src/html.cc:119
+msgid ""
+"<HEAD>\n"
+"   <TITLE>General Bits</TITLE>\n"
+msgstr ""
+
+#: src/html.cc:137
+msgid "\">Hierarchy of classes</A></I></P>"
+msgstr ""
+
+#: src/html.cc:142
+msgid "\">Alphabetic index</A></I></P>"
+msgstr ""
+
+#: src/html.cc:146 src/html.cc:157
+msgid "\">Alphabetic index</A></I>"
+msgstr ""
+
+#: src/html.cc:151
+msgid "\">Hierarchy of classes</A></I>"
+msgstr ""
+
+#: src/html.cc:162
+msgid "\">HTML hierarchy of classes</A>"
+msgstr ""
+
+#: src/html.cc:163
+msgid " or <A HREF=\"HIERjava"
+msgstr ""
+
+#: src/html.cc:211
+#, c-format
+msgid "Warning: weird file name `%s'\n"
+msgstr ""
+
+#: src/html.cc:267
+msgid ""
+"This page was generated with the help of <A HREF=\"http://docpp.sourceforge."
+"net\">DOC++</A>.\n"
+msgstr ""
+
+#: src/html.cc:614
+msgid "<H1>Hierarchy of Classes</H1>\n"
+msgstr ""
+
+#: src/html.cc:1072
+msgid ""
+"\n"
+"<H1>Table of Contents</H1>\n"
+msgstr ""
+
+#: src/html.cc:1117
+msgid "<H1>Hierarchy of classes</H1>\n"
+msgstr ""
+
+#: src/html.cc:1121
+#, c-format
+msgid "<I><A HREF=\"index%s\"> alphabetic index</A></I><P>"
+msgstr ""
+
+#: src/html.cc:1156
+#, c-format
+msgid "Member `%s' was there\n"
+msgstr ""
+
+#: src/html.cc:1173
+msgid "<DT><H3>Public Fields</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1174
+msgid "<DT><H3>Public Methods</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1175
+msgid "<DT><H3>Public Members</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1176
+msgid "<DT><H3>Protected Fields</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1177
+msgid "<DT><H3>Protected Methods</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1178
+msgid "<DT><H3>Protected Members</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1179
+msgid "<DT><H3>Private Fields</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1180
+msgid "<DT><H3>Private Methods</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1181
+msgid "<DT><H3>Private Members</H3><DD>"
+msgstr ""
+
+#: src/html.cc:1240 src/html.cc:1634
+#, c-format
+msgid "<HR><H3>Inherited from <A HREF=\"%s\">%s</A>:</H3>\n"
+msgstr ""
+
+#: src/html.cc:1278
+msgid "<DT><B>Throws:</B><DD>"
+msgstr ""
+
+#: src/html.cc:1299
+msgid "<DT><B>Parameters:</B><DD>"
+msgstr ""
+
+#: src/html.cc:1318
+msgid "<DT><B>Fields:</B><DD>"
+msgstr ""
+
+#: src/html.cc:1335
+msgid "Returns"
+msgstr ""
+
+#: src/html.cc:1336
+msgid "Preconditions"
+msgstr ""
+
+#: src/html.cc:1337
+msgid "Postconditions"
+msgstr ""
+
+#: src/html.cc:1338
+msgid "Friends"
+msgstr ""
+
+#: src/html.cc:1341
+#, c-format
+msgid "<DT><B>Author:</B><DD>%s\n"
+msgstr ""
+
+#: src/html.cc:1344
+#, c-format
+msgid "<DT><B>Version:</B><DD>%s\n"
+msgstr ""
+
+#: src/html.cc:1347
+#, c-format
+msgid "<DT><B><I>Deprecated:</I></B><DD>%s\n"
+msgstr ""
+
+#: src/html.cc:1350
+#, c-format
+msgid "<DT><B>Since:</B><DD>%s\n"
+msgstr ""
+
+#: src/html.cc:1354
+msgid "<DT><B>See Also:</B><DD>"
+msgstr ""
+
+#: src/html.cc:1476
+#, c-format
+msgid "In file %s:"
+msgstr ""
+
+#: src/html.cc:1481
+#, c-format
+msgid "<H2>Package %s</H2>"
+msgstr ""
+
+#: src/html.cc:1575
+#, c-format
+msgid "Writing page for `%s %s%s'\n"
+msgstr ""
+
+#: src/html.cc:1585 src/html.cc:1644
+msgid ""
+"<HR>\n"
+"<H2>Documentation</H2>\n"
+msgstr ""
+
+#: src/html.cc:1604
+msgid ""
+"<HR>\n"
+"\n"
+"<H2>Inheritance:</H2>\n"
+msgstr ""
+
+#: src/html.cc:1660
+msgid ""
+"<HR>\n"
+"<DL><DT><B>Direct child classes:\n"
+"</B><DD>"
+msgstr ""
+
+#: src/html.cc:1673
+msgid ""
+"\n"
+"<HR><DL><DT><B>This class has no child classes.</B></DL>\n"
+"\n"
+msgstr ""
+
+#: src/html.cc:1694
+#, c-format
+msgid "Opening `%s' to write\n"
+msgstr ""
+
+#: src/html.cc:1698
+#, c-format
+msgid "Cannot open `%s'\n"
+msgstr ""
+
+#: src/html.cc:1748
+msgid "Making name from type for:\n"
+msgstr ""
+
+#: src/html.cc:1776
+#, c-format
+msgid "Copied `%s %s%s' into `%s'\n"
+msgstr ""
+
+#: src/html.cc:1802
+#, c-format
+msgid "Warning: `%s %s%s' hanging from root with no page\n"
+msgstr ""
+
+#: src/html.cc:1888
+#, c-format
+msgid "Writing sub for `%s %s%s' to file `%s'\n"
+msgstr ""
+
+#: src/html.cc:1944
+#, c-format
+msgid "Writing `%s %s%s' to file `%s'\n"
+msgstr ""
+
+#: src/html.cc:1957
+#, c-format
+msgid "Warning: weird filename `%s' for `%s %s%s'\n"
+msgstr ""
+
+#: src/html.cc:1965
+#, c-format
+msgid "Cannot open `%s' for writing\n"
+msgstr ""
+
+#: src/html.cc:2088
+#, c-format
+msgid "`%s' directory already exists\n"
+msgstr ""
+
+#: src/html.cc:2093
+#, c-format
+msgid "Could not create `%s' directory\n"
+msgstr ""
+
+#: src/html.cc:2124
+msgid "Converting DOC++ to HTML...\n"
+msgstr ""
+
+#: src/html.cc:2139
+#, c-format
+msgid "Warning: Can't open `%s', producing no footer.\n"
+msgstr ""
+
+#: src/html.cc:2153
+#, c-format
+msgid "Warning: Can't open `%s', producing no header.\n"
+msgstr ""
+
+#: src/html.cc:2164
+msgid "Writing files...\n"
+msgstr ""
+
+#: src/html.cc:2182
+msgid "Writing TOC...\n"
+msgstr ""
+
+#: src/html.cc:2198
+msgid "Writing Class Hierarchy...\n"
+msgstr ""
+
+#: src/main.cc:50
+#, c-format
+msgid "DOC++ %s, a documentation system for C, C++, IDL and Java\n"
+msgstr ""
+
+#: src/main.cc:52
+msgid ""
+"Usage: doc++ [options] [files]\n"
+"\n"
+msgstr ""
+
+#: src/main.cc:55
+msgid "  -A  --all              document all\n"
+msgstr ""
+
+#: src/main.cc:56
+msgid "  -c  --c-comments       use C/C++ comments as doc++-comments\n"
+msgstr ""
+
+#: src/main.cc:57
+msgid "  -C  --config FILE      read options from FILE\n"
+msgstr ""
+
+#: src/main.cc:58
+msgid "  -h  --help             display this help and exit\n"
+msgstr ""
+
+#: src/main.cc:59
+msgid "  -H  --html             parse HTML syntax instead of TeX\n"
+msgstr ""
+
+#: src/main.cc:60
+msgid "  -I  --input FILE       read a list of input files from FILE\n"
+msgstr ""
+
+#: src/main.cc:61
+msgid "  -J  --java             parse Java instead of C/C++\n"
+msgstr ""
+
+#: src/main.cc:62
+msgid "  -nd --no-define        ignore `#define' macros\n"
+msgstr ""
+
+#: src/main.cc:63
+msgid "  -ng --no-class-graph   do not generate class graph\n"
+msgstr ""
+
+#: src/main.cc:64
+msgid "  -p  --private          document private members\n"
+msgstr ""
+
+#: src/main.cc:65
+msgid "  -q  --quick            optimize for speed instead of size\n"
+msgstr ""
+
+#: src/main.cc:66
+msgid ""
+"  -Q  --quantel          Quantel extensions, folding & appended comments\n"
+msgstr ""
+
+#: src/main.cc:67
+msgid "  -R  --internal-doc     generate internal documentation\n"
+msgstr ""
+
+#: src/main.cc:68
+msgid "  -u  --upwards-arrows   upwards arrows in class graphs\n"
+msgstr ""
+
+#: src/main.cc:69
+msgid "  -v  --verbose          turn verbose mode on\n"
+msgstr ""
+
+#: src/main.cc:70
+msgid "  -V  --version          output version information and exit\n"
+msgstr ""
+
+#: src/main.cc:71
+msgid "  -y  --scan-includes    scan `#include'ed header files\n"
+msgstr ""
+
+#: src/main.cc:72
+msgid "  -Y  --idl              parse IDL instead of C/C++\n"
+msgstr ""
+
+#: src/main.cc:73
+msgid ""
+"  -z  --php              parse PHP instead of C/C++\n"
+"\n"
+msgstr ""
+
+#: src/main.cc:75
+msgid "Alternate output types instead of HTML:\n"
+msgstr ""
+
+#: src/main.cc:76
+msgid "  -t  --tex              TeX output output\n"
+msgstr ""
+
+#: src/main.cc:77
+msgid "  -Z  --docbook          DocBook SGML output\n"
+msgstr ""
+
+#: src/main.cc:78
+msgid "  -L  --docbookxml       DocBook XML output\n"
+msgstr ""
+
+#: src/main.cc:80
+msgid "Additional options for HTML output:\n"
+msgstr ""
+
+#: src/main.cc:81
+msgid "  -a  --tables           use tables instead of description lists\n"
+msgstr ""
+
+#: src/main.cc:82
+msgid "  -b  --tables-border    use tables with borders\n"
+msgstr ""
+
+#: src/main.cc:83
+msgid "  -B  --footer FILE      use FILE as footer on HTML pages\n"
+msgstr ""
+
+#: src/main.cc:85
+msgid "  -f  --filenames        show filenames in manual pages\n"
+msgstr ""
+
+#: src/main.cc:86
+msgid "  -F  --filenames-path   show filenames with path in manual pages\n"
+msgstr ""
+
+#: src/main.cc:87
+msgid "  -g  --no-gifs          do not generate GIFs for equations, etc.\n"
+msgstr ""
+
+#: src/main.cc:88
+msgid "  -G  --gifs             force generation of GIFs\n"
+msgstr ""
+
+#: src/main.cc:89
+msgid "  -i  --no-inherited     don't show inherited members\n"
+msgstr ""
+
+#: src/main.cc:90
+msgid "  -j  --no-java-graphs   suppress Java class graphs\n"
+msgstr ""
+
+#: src/main.cc:91
+msgid "  -k  --trivial-graphs   keep trivial class graphs\n"
+msgstr ""
+
+#: src/main.cc:92
+msgid "  -K  --stylesheet FILE  use FILE as HTML style sheet\n"
+msgstr ""
+
+#: src/main.cc:93
+msgid "  -m  --no-members       don't show all members in DOC section\n"
+msgstr ""
+
+#: src/main.cc:94
+msgid "  -M  --full-toc         show members in TOC\n"
+msgstr ""
+
+#: src/main.cc:95
+msgid "  -P  --no-general       discard general stuff\n"
+msgstr ""
+
+#: src/main.cc:96
+msgid "  -S  --sort             sort entries alphabetically\n"
+msgstr ""
+
+#: src/main.cc:97
+msgid "  -T  --header FILE      use FILE as header on HTML pages\n"
+msgstr ""
+
+#: src/main.cc:98
+msgid "  -w  --before-group     print group documentation before group\n"
+msgstr ""
+
+#: src/main.cc:99
+msgid "  -W  --before-class     print class documentation before group\n"
+msgstr ""
+
+#: src/main.cc:100
+msgid ""
+"  -x  --suffix SUFFIX    use SUFFIX instead of \".html\"\n"
+"\n"
+msgstr ""
+
+#: src/main.cc:102
+msgid "Additional options for TeX output:\n"
+msgstr ""
+
+#: src/main.cc:103
+msgid "  -ec --class-graph      only generates class graph\n"
+msgstr ""
+
+#: src/main.cc:104
+msgid "  -ef --env FILE         read TeX environment from FILE\n"
+msgstr ""
+
+#: src/main.cc:105
+msgid "  -ei --index            generate the index only\n"
+msgstr ""
+
+#: src/main.cc:106
+msgid "  -eo --style OPTION     setup TeX style OPTION\n"
+msgstr ""
+
+#: src/main.cc:107
+msgid "  -ep --package FILE     setup TeX to use package FILE\n"
+msgstr ""
+
+#: src/main.cc:108
+msgid "  -et --title FILE       use content of FILE as TeX title page\n"
+msgstr ""
+
+#: src/main.cc:109
+msgid "  -D  --depth DEPTH      set minimum depth (number of levels) in TOC\n"
+msgstr ""
+
+#: src/main.cc:110
+msgid "  -l  --no-env           do not generate TeX environment\n"
+msgstr ""
+
+#: src/main.cc:111
+msgid "  -o  --output FILE      set output file name\n"
+msgstr ""
+
+#: src/main.cc:112
+msgid "  -s  --source           generate source code listing\n"
+msgstr ""
+
+#: src/main.cc:113
+msgid ""
+"  -X  --hide-index       don't generate index at section start\n"
+"\n"
+msgstr ""
+
+#: src/main.cc:125
+#, c-format
+msgid "Ignoring option `-e%c': required argument missing\n"
+msgstr ""
+
+#: src/main.cc:131
+#, c-format
+msgid "Unknown option `-%c'. Try `doc++ --help'\n"
+msgstr ""
+
+#: src/main.cc:133
+#, c-format
+msgid "Unknown option `-%c%c'. Try `doc++ --help'\n"
+msgstr ""
+
+#: src/main.cc:449
+msgid "Ignoring option `--depth': bad argument specified\n"
+msgstr ""
+
+#: src/main.cc:469
+#, c-format
+msgid "Ignoring option `--output': cannot open file `%s'\n"
+msgstr ""
+
+#: src/main.cc:537
+#, c-format
+msgid "Error opening configuration file `%s'\n"
+msgstr ""
+
+#: src/main.cc:558
+msgid "No input files. Try `doc++ --help'\n"
+msgstr ""
+
+#: src/main.cc:579
+msgid "Reading files...\n"
+msgstr ""
+
+#: src/main.cc:586
+#, c-format
+msgid "Error opening file list `%s'\n"
+msgstr ""
+
+#: src/main.cc:607
+#, c-format
+msgid "%d bytes read\n"
+msgstr ""
+
+#: src/main.cc:613
+msgid "Generating source code listing...\n"
+msgstr ""
+
+#: src/main.cc:616 src/main.cc:679
+msgid "Done.\n"
+msgstr ""
+
+#: src/main.cc:622
+msgid "Parsing...\n"
+msgstr ""
+
+#: src/main.cc:636
+msgid "Merging duplicate entries...\n"
+msgstr ""
+
+#: src/main.cc:641
+msgid "Sorting entries...\n"
+msgstr ""
+
+#: src/main.cc:646
+msgid "Resolving references...\n"
+msgstr ""
+
+#: src/main.cc:670
+#, c-format
+msgid "Writing GIF database file `%s'...\n"
+msgstr ""
+
+#: src/tex2gif.cc:44
+#, c-format
+msgid "Running `%s'\n"
+msgstr ""
+
+#: src/tex2gif.cc:68
+#, c-format
+msgid "Processing file `%s'\n"
+msgstr ""
+
+#: src/tex2gif.cc:79
+#, c-format
+msgid "Read %d GIF record(s).\n"
+msgstr ""
+
+#: src/tex2gif.cc:85
+#, c-format
+msgid "Can't open `%s/dxxgifs.tex' for writing\n"
+msgstr ""
+
+#: src/tex2gif.cc:99
+#, c-format
+msgid "Couldn't open `%s'\n"
+msgstr ""
+
+#: src/tex2gif.cc:124
+#, c-format
+msgid "Could not open `%s'\n"
+msgstr ""
+
+#: src/tex2gif.cc:174
+#, c-format
+msgid "Couldn't extract BoundingBox from dxx%04d.eps.\n"
+msgstr ""
+
+#: src/tex2gif.cc:210
+msgid "Warning: problems generating GIFs. Check file `dxxgifs.tex'.\n"
+msgstr ""

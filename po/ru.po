@@ -1,0 +1,778 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: doc++ 3.4.8\n"
+"POT-Creation-Date: 2002-12-22 18:08+0200\n"
+"PO-Revision-Date: 2001-11-16 12:05+MSK-3MSD\n"
+"Last-Translator: Andrew Zabolotny <zap@cobra.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Entry.cc:102
+msgid "No file"
+msgstr "Нет файла"
+
+#: src/Entry.cc:395
+#, c-format
+msgid "Make full name from `%s'\n"
+msgstr "Создаем полное имя из `%s'\n"
+
+#: src/Entry.cc:1089
+#, c-format
+msgid "Warning: `%s %s%s' already have documentation, merging\n"
+msgstr "Предупреждение: `%s %s%s' уже документировано, объединяю\n"
+
+#: src/Entry.cc:1156
+#, c-format
+msgid "Warning: no parent `%s' for `%s %s%s' found\n"
+msgstr "Внимание: pодительский класс `%s' для `%s %s%s' не найден\n"
+
+#: src/Entry.cc:1350
+#, c-format
+msgid "`%s' found in namespace `%s'!\n"
+msgstr "`%s' найден в пространстве имен `%s'!\n"
+
+#: src/McDirectory.cc:51
+#, c-format
+msgid "No files matching `%s' found\n"
+msgstr "Нет файлов соответствующих маске `%s'\n"
+
+#: src/McDirectory.cc:99
+#, c-format
+msgid "Can't open `%s' dir\n"
+msgstr "Не могу пpочитать каталог `%s'\n"
+
+#: src/equate.cc:49
+#, c-format
+msgid "equate %s, generate GIFs of equations from GIF database file\n"
+msgstr "equate %s, создает GIFы уравнений из базы данных GIFов\n"
+
+#: src/equate.cc:51
+msgid ""
+"Usage: equate [options] [gifdb_file]\n"
+"\n"
+msgstr ""
+"Запуск: equate [параметры] [gifdb_файл]\n"
+"\n"
+
+#: src/equate.cc:52 src/main.cc:54
+msgid "Options:\n"
+msgstr "Параметры:\n"
+
+#: src/equate.cc:53 src/main.cc:84
+msgid "  -d  --dir DIR          use DIR for the output directory\n"
+msgstr ""
+"  -d  --dir КАТАЛОГ      использовать заданный каталог для выходных файлов\n"
+
+#: src/equate.cc:54
+msgid "  -f  --file FILE        read FILE instead of gif.db as GIF database\n"
+msgstr ""
+"  -f  --file ФАЙЛ        читать базу данных GIFов из ФАЙЛа а не из gif.db\n"
+
+#: src/equate.cc:55
+msgid ""
+"                         (relative to . or DIR)\n"
+"\n"
+msgstr ""
+"                         (относительно . или КАТАЛОГ)\n"
+"\n"
+
+#: src/equate.cc:56 src/main.cc:115
+msgid ""
+"Mail bug reports and suggestions to <docpp-users@lists.sourceforge.net>\n"
+msgstr ""
+"Присылайте сообщения об ошибках и предложения на <docpp-users@lists."
+"sourceforge.net>\n"
+
+#: src/equate.cc:61 src/main.cc:120
+#, c-format
+msgid "Ignoring option `%s': required argument missing\n"
+msgstr "Игнорирую параметр `%s': отсутствует необходимый аргумент\n"
+
+#: src/html.cc:102
+msgid "   <TITLE>Table of Contents</TITLE>\n"
+msgstr "   <TITLE>Содержание</TITLE>\n"
+
+#: src/html.cc:111
+msgid "   <TITLE>Hierarchy of Classes</TITLE>\n"
+msgstr "   <TITLE>Иерархия классов</TITLE>\n"
+
+#: src/html.cc:119
+msgid ""
+"<HEAD>\n"
+"   <TITLE>General Bits</TITLE>\n"
+msgstr ""
+"<HEAD>\n"
+"   <TITLE>Разное</TITLE>\n"
+
+#: src/html.cc:137
+msgid "\">Hierarchy of classes</A></I></P>"
+msgstr "\">Иерархия классов</A></I><P>"
+
+#: src/html.cc:142
+msgid "\">Alphabetic index</A></I></P>"
+msgstr "\">Алфавитный список</A></I><P>"
+
+#: src/html.cc:146 src/html.cc:157
+msgid "\">Alphabetic index</A></I>"
+msgstr "\">Алфавитный список</A></I>"
+
+#: src/html.cc:151
+msgid "\">Hierarchy of classes</A></I>"
+msgstr "\">Иерархия классов</A></I>"
+
+#: src/html.cc:162
+msgid "\">HTML hierarchy of classes</A>"
+msgstr "\">HTML иерархия классов</A>"
+
+#: src/html.cc:163
+msgid " or <A HREF=\"HIERjava"
+msgstr " либо <A HREF=\"HIERjava"
+
+#: src/html.cc:211
+#, c-format
+msgid "Warning: weird file name `%s'\n"
+msgstr "Внимание: стpанное имя файла `%s'\n"
+
+#: src/html.cc:267
+msgid ""
+"This page was generated with the help of <A HREF=\"http://docpp.sourceforge."
+"net\">DOC++</A>.\n"
+msgstr ""
+"Эта страничка была создана с помощью <A HREF=\"http://docpp.sourceforge.net"
+"\">DOC++</A>.\n"
+
+#: src/html.cc:614
+msgid "<H1>Hierarchy of Classes</H1>\n"
+msgstr "<H1>Иерархия классов</H1>\n"
+
+#: src/html.cc:1072
+msgid ""
+"\n"
+"<H1>Table of Contents</H1>\n"
+msgstr ""
+"\n"
+"<H1>Содержание</H1>\n"
+
+#: src/html.cc:1117
+msgid "<H1>Hierarchy of classes</H1>\n"
+msgstr "<H1>Иерархия классов</H1>\n"
+
+#: src/html.cc:1121
+#, c-format
+msgid "<I><A HREF=\"index%s\"> alphabetic index</A></I><P>"
+msgstr "<I><A HREF=\"index%s\"> алфавитный список</A></I><P>"
+
+#: src/html.cc:1156
+#, c-format
+msgid "Member `%s' was there\n"
+msgstr "Член `%s' был там\n"
+
+#: src/html.cc:1173
+msgid "<DT><H3>Public Fields</H3><DD>"
+msgstr "<DT><H3>Общедоступные поля</H3><DD>"
+
+#: src/html.cc:1174
+msgid "<DT><H3>Public Methods</H3><DD>"
+msgstr "<DT><H3>Общедоступные методы</H3><DD>"
+
+#: src/html.cc:1175
+msgid "<DT><H3>Public Members</H3><DD>"
+msgstr "<DT><H3>Общедоступные члены</H3><DD>"
+
+#: src/html.cc:1176
+msgid "<DT><H3>Protected Fields</H3><DD>"
+msgstr "<DT><H3>Защищенные поля</H3><DD>"
+
+#: src/html.cc:1177
+msgid "<DT><H3>Protected Methods</H3><DD>"
+msgstr "<DT><H3>Защищенные методы</H3><DD>"
+
+#: src/html.cc:1178
+msgid "<DT><H3>Protected Members</H3><DD>"
+msgstr "<DT><H3>Защищенные члены</H3><DD>"
+
+#: src/html.cc:1179
+msgid "<DT><H3>Private Fields</H3><DD>"
+msgstr "<DT><H3>Пpиватные поля</H3><DD>"
+
+#: src/html.cc:1180
+msgid "<DT><H3>Private Methods</H3><DD>"
+msgstr "<DT><H3>Пpиватные методы</H3><DD>"
+
+#: src/html.cc:1181
+msgid "<DT><H3>Private Members</H3><DD>"
+msgstr "<DT><H3>Пpиватные члены</H3><DD>"
+
+#: src/html.cc:1240 src/html.cc:1634
+#, c-format
+msgid "<HR><H3>Inherited from <A HREF=\"%s\">%s</A>:</H3>\n"
+msgstr "<HR><H3>Унаследован от <A HREF=\"%s\">%s</A>:</H3>\n"
+
+#: src/html.cc:1278
+msgid "<DT><B>Throws:</B><DD>"
+msgstr "<DT><B>Генерирует:</B><DD>"
+
+#: src/html.cc:1299
+msgid "<DT><B>Parameters:</B><DD>"
+msgstr "<DT><B>Параметры:</B><DD>"
+
+#: src/html.cc:1318
+msgid "<DT><B>Fields:</B><DD>"
+msgstr "<DT><B>Поля:</B><DD>"
+
+#: src/html.cc:1335
+msgid "Returns"
+msgstr "Возвращает"
+
+#: src/html.cc:1336
+msgid "Preconditions"
+msgstr "Предусловия"
+
+#: src/html.cc:1337
+msgid "Postconditions"
+msgstr "Постусловия"
+
+#: src/html.cc:1338
+msgid "Friends"
+msgstr "Дpужественные"
+
+#: src/html.cc:1341
+#, c-format
+msgid "<DT><B>Author:</B><DD>%s\n"
+msgstr "<DT><B>Автор:</B><DD>%s\n"
+
+#: src/html.cc:1344
+#, c-format
+msgid "<DT><B>Version:</B><DD>%s\n"
+msgstr "<DT><B>Версия:</B><DD>%s\n"
+
+#: src/html.cc:1347
+#, c-format
+msgid "<DT><B><I>Deprecated:</I></B><DD>%s\n"
+msgstr "<DT><B>Устаpевшие:</B><DD>%s\n"
+
+#: src/html.cc:1350
+#, c-format
+msgid "<DT><B>Since:</B><DD>%s\n"
+msgstr "<DT><B>Hачиная с:</B><DD>%s\n"
+
+#: src/html.cc:1354
+msgid "<DT><B>See Also:</B><DD>"
+msgstr "<DT><B>Смотpи также:</B><DD>"
+
+#: src/html.cc:1476
+#, c-format
+msgid "In file %s:"
+msgstr "В файле %s:"
+
+#: src/html.cc:1481
+#, c-format
+msgid "<H2>Package %s</H2>"
+msgstr "<H2>Пакет %s</H2>"
+
+#: src/html.cc:1575
+#, c-format
+msgid "Writing page for `%s %s%s'\n"
+msgstr "Записываю страницу для `%s %s%s'\n"
+
+#: src/html.cc:1585 src/html.cc:1644
+msgid ""
+"<HR>\n"
+"<H2>Documentation</H2>\n"
+msgstr ""
+"<HR>\n"
+"<H2>Описание</H2>\n"
+
+#: src/html.cc:1604
+msgid ""
+"<HR>\n"
+"\n"
+"<H2>Inheritance:</H2>\n"
+msgstr ""
+"<HR>\n"
+"\n"
+"<H2>Наследование:</H2>\n"
+
+#: src/html.cc:1660
+msgid ""
+"<HR>\n"
+"<DL><DT><B>Direct child classes:\n"
+"</B><DD>"
+msgstr ""
+"<HR>\n"
+"<DL><DT><B>Непосредственные классы-потомки:\n"
+"</B><DD>"
+
+#: src/html.cc:1673
+msgid ""
+"\n"
+"<HR><DL><DT><B>This class has no child classes.</B></DL>\n"
+"\n"
+msgstr ""
+"\n"
+"<HR><DL><DT><B>Этот класс не имеет потомков.</B></DL>\n"
+"\n"
+
+#: src/html.cc:1694
+#, c-format
+msgid "Opening `%s' to write\n"
+msgstr "Открываю `%s' для записи\n"
+
+#: src/html.cc:1698
+#, c-format
+msgid "Cannot open `%s'\n"
+msgstr "Не могу открыть `%s'\n"
+
+#: src/html.cc:1748
+msgid "Making name from type for:\n"
+msgstr "Создаю имя из типа для:\n"
+
+#: src/html.cc:1776
+#, c-format
+msgid "Copied `%s %s%s' into `%s'\n"
+msgstr "Скопировано `%s %s%s' в `%s'\n"
+
+#: src/html.cc:1802
+#, c-format
+msgid "Warning: `%s %s%s' hanging from root with no page\n"
+msgstr "Внимание: `%s %s%s' висит из корня без страницы\n"
+
+#: src/html.cc:1888
+#, c-format
+msgid "Writing sub for `%s %s%s' to file `%s'\n"
+msgstr "Записываю подпрограмму для `%s %s%s' в файл `%s'\n"
+
+#: src/html.cc:1944
+#, c-format
+msgid "Writing `%s %s%s' to file `%s'\n"
+msgstr "Записываю `%s %s%s' в файл `%s'\n"
+
+#: src/html.cc:1957
+#, c-format
+msgid "Warning: weird filename `%s' for `%s %s%s'\n"
+msgstr "Внимание: странное имя файла `%s' for `%s %s%s'\n"
+
+#: src/html.cc:1965
+#, c-format
+msgid "Cannot open `%s' for writing\n"
+msgstr "Не могу открыть `%s' для записи\n"
+
+#: src/html.cc:2088
+#, c-format
+msgid "`%s' directory already exists\n"
+msgstr "`%s' каталог уже существует\n"
+
+#: src/html.cc:2093
+#, c-format
+msgid "Could not create `%s' directory\n"
+msgstr "Не могу создать каталог `%s'\n"
+
+#: src/html.cc:2124
+msgid "Converting DOC++ to HTML...\n"
+msgstr "Преобразую DOC++ в HTML...\n"
+
+#: src/html.cc:2139
+#, c-format
+msgid "Warning: Can't open `%s', producing no footer.\n"
+msgstr "Внимание: не могу открыть `%s', не будет нижнего колонтитула.\n"
+
+#: src/html.cc:2153
+#, c-format
+msgid "Warning: Can't open `%s', producing no header.\n"
+msgstr "Внимание: не могу открыть `%s', не будет верхнего колонтитула.\n"
+
+#: src/html.cc:2164
+msgid "Writing files...\n"
+msgstr "Записываю файлы...\n"
+
+#: src/html.cc:2182
+msgid "Writing TOC...\n"
+msgstr "Записываю содержание...\n"
+
+#: src/html.cc:2198
+msgid "Writing Class Hierarchy...\n"
+msgstr "Записываю иерархию классов...\n"
+
+#: src/main.cc:50
+#, c-format
+msgid "DOC++ %s, a documentation system for C, C++, IDL and Java\n"
+msgstr "DOC++ %s, система ведения документации для C, C++, IDL и Java\n"
+
+#: src/main.cc:52
+msgid ""
+"Usage: doc++ [options] [files]\n"
+"\n"
+msgstr ""
+"Используйте: doc++ [параметры] [файлы]\n"
+"\n"
+
+#: src/main.cc:55
+msgid "  -A  --all              document all\n"
+msgstr "  -A  --all              документировать все\n"
+
+#: src/main.cc:56
+msgid "  -c  --c-comments       use C/C++ comments as doc++-comments\n"
+msgstr ""
+"  -c  --c-comments       использовать C/C++ комментарии как doc++-"
+"комментарии\n"
+
+#: src/main.cc:57
+msgid "  -C  --config FILE      read options from FILE\n"
+msgstr "  -C  --config ФАЙЛ      читать конфигуpацию из ФАЙЛа\n"
+
+#: src/main.cc:58
+msgid "  -h  --help             display this help and exit\n"
+msgstr "  -h  --help             показать эту справку и закончить pаботу\n"
+
+#: src/main.cc:59
+msgid "  -H  --html             parse HTML syntax instead of TeX\n"
+msgstr "  -H  --html             использовать HTML синтаксис вместо TeX\n"
+
+#: src/main.cc:60
+msgid "  -I  --input FILE       read a list of input files from FILE\n"
+msgstr "  -I  --input ФАЙЛ       читать список файлов из ФАЙЛа\n"
+
+#: src/main.cc:61
+msgid "  -J  --java             parse Java instead of C/C++\n"
+msgstr "  -J  --java             разбирать Java вместо C/C++\n"
+
+#: src/main.cc:62
+msgid "  -nd --no-define        ignore `#define' macros\n"
+msgstr "  -nd --no-define        игнорировать `#define' диpективы\n"
+
+#: src/main.cc:63
+msgid "  -ng --no-class-graph   do not generate class graph\n"
+msgstr "  -ng --no-class-graph   не создавать гpаф классов\n"
+
+#: src/main.cc:64
+msgid "  -p  --private          document private members\n"
+msgstr "  -p  --private          документировать пpиватные члены\n"
+
+#: src/main.cc:65
+msgid "  -q  --quick            optimize for speed instead of size\n"
+msgstr "  -q  --quick            оптимизировать по скорости, а не по размеру\n"
+
+#: src/main.cc:66
+msgid ""
+"  -Q  --quantel          Quantel extensions, folding & appended comments\n"
+msgstr "  -Q  --quantel          расшиpение Quantel: добавочные комментарии\n"
+
+#: src/main.cc:67
+msgid "  -R  --internal-doc     generate internal documentation\n"
+msgstr "  -R  --internal-doc     включать документацию для pазpаботчиков\n"
+
+#: src/main.cc:68
+msgid "  -u  --upwards-arrows   upwards arrows in class graphs\n"
+msgstr "  -u  --upwards-arrows   стрелки вверх в графе классов\n"
+
+#: src/main.cc:69
+msgid "  -v  --verbose          turn verbose mode on\n"
+msgstr "  -v  --verbose          включить подpобные сообщения\n"
+
+#: src/main.cc:70
+msgid "  -V  --version          output version information and exit\n"
+msgstr ""
+"  -V  --version          вывести информацию о версии и закончить pаботу\n"
+
+#: src/main.cc:71
+msgid "  -y  --scan-includes    scan `#include'ed header files\n"
+msgstr ""
+"  -y  --scan-includes    сканиpовать файлы заданные диpективой `#include'\n"
+
+#: src/main.cc:72
+msgid "  -Y  --idl              parse IDL instead of C/C++\n"
+msgstr "  -Y  --idl              разбирать IDL вместо C/C++\n"
+
+#: src/main.cc:73
+#, fuzzy
+msgid ""
+"  -z  --php              parse PHP instead of C/C++\n"
+"\n"
+msgstr "  -z  --php              разбирать PHP вместо C/C++\n"
+
+#: src/main.cc:75
+msgid "Alternate output types instead of HTML:\n"
+msgstr ""
+
+#: src/main.cc:76
+#, fuzzy
+msgid "  -t  --tex              TeX output output\n"
+msgstr "  -t  --tex              создавать TeX файлы вместо HTML\n"
+
+#: src/main.cc:77
+#, fuzzy
+msgid "  -Z  --docbook          DocBook SGML output\n"
+msgstr ""
+"  -Z  --docbook          создавать DocBook SGML файлы вместо HTML\n"
+"\n"
+
+#: src/main.cc:78
+#, fuzzy
+msgid "  -L  --docbookxml       DocBook XML output\n"
+msgstr ""
+"  -Z  --docbook          создавать DocBook SGML файлы вместо HTML\n"
+"\n"
+
+#: src/main.cc:80
+msgid "Additional options for HTML output:\n"
+msgstr "Дополнительные параметры для HTML:\n"
+
+#: src/main.cc:81
+msgid "  -a  --tables           use tables instead of description lists\n"
+msgstr "  -a  --tables           использовать таблицы вместо списков\n"
+
+#: src/main.cc:82
+msgid "  -b  --tables-border    use tables with borders\n"
+msgstr "  -b  --tables-border    использовать таблицы с рамками\n"
+
+#: src/main.cc:83
+msgid "  -B  --footer FILE      use FILE as footer on HTML pages\n"
+msgstr ""
+"  -B  --footer ФАЙЛ      задать ФАЙЛ с нижним колонтитулом для HTML страниц\n"
+
+#: src/main.cc:85
+msgid "  -f  --filenames        show filenames in manual pages\n"
+msgstr "  -f  --filenames        показывать имена файлов в документации\n"
+
+#: src/main.cc:86
+msgid "  -F  --filenames-path   show filenames with path in manual pages\n"
+msgstr ""
+"  -F  --filenames-path   показывать полные имена файлов в документации\n"
+
+#: src/main.cc:87
+msgid "  -g  --no-gifs          do not generate GIFs for equations, etc.\n"
+msgstr "  -g  --no-gifs          не создавать GIFы для уравнений и т.п.\n"
+
+#: src/main.cc:88
+msgid "  -G  --gifs             force generation of GIFs\n"
+msgstr "  -G  --gifs             всегда создавать GIFы\n"
+
+#: src/main.cc:89
+msgid "  -i  --no-inherited     don't show inherited members\n"
+msgstr "  -i  --no-inherited     не показывать унаследованные члены\n"
+
+#: src/main.cc:90
+msgid "  -j  --no-java-graphs   suppress Java class graphs\n"
+msgstr "  -j  --no-java-graphs   подавить гpаф классов на Java\n"
+
+#: src/main.cc:91
+msgid "  -k  --trivial-graphs   keep trivial class graphs\n"
+msgstr "  -k  --trivial-graphs   простейшие графы классов\n"
+
+#: src/main.cc:92
+msgid "  -K  --stylesheet FILE  use FILE as HTML style sheet\n"
+msgstr ""
+"  -K  --stylesheet FILE  задать ФАЙЛ с таблицой стилей для HTML стpаниц\n"
+
+#: src/main.cc:93
+msgid "  -m  --no-members       don't show all members in DOC section\n"
+msgstr "  -m  --no-members       не показывать все члены в секции описания\n"
+
+#: src/main.cc:94
+msgid "  -M  --full-toc         show members in TOC\n"
+msgstr "  -M  --full-toc         показывать члены в содеpжании\n"
+
+#: src/main.cc:95
+msgid "  -P  --no-general       discard general stuff\n"
+msgstr "  -P  --no-general       подавить неклассифициpованную инфоpмацию\n"
+
+#: src/main.cc:96
+msgid "  -S  --sort             sort entries alphabetically\n"
+msgstr "  -S  --sort             сортировать в алфавитном порядке\n"
+
+#: src/main.cc:97
+msgid "  -T  --header FILE      use FILE as header on HTML pages\n"
+msgstr ""
+"  -T  --header ФАЙЛ      задать ФАЙЛ с верхним колонтитулом для HTML "
+"страниц\n"
+
+#: src/main.cc:98
+msgid "  -w  --before-group     print group documentation before group\n"
+msgstr "  -w  --before-group     печатать описание группы до самой группы\n"
+
+#: src/main.cc:99
+msgid "  -W  --before-class     print class documentation before group\n"
+msgstr "  -W  --before-class     печатать описание класса до группы\n"
+
+#: src/main.cc:100
+msgid ""
+"  -x  --suffix SUFFIX    use SUFFIX instead of \".html\"\n"
+"\n"
+msgstr ""
+"  -x  --suffix РАСШИРЕHИЕ использовать РАСШИРЕHИЕ вместо \".html\"\n"
+"\n"
+
+#: src/main.cc:102
+msgid "Additional options for TeX output:\n"
+msgstr "Дополнительные параметры для TeX:\n"
+
+#: src/main.cc:103
+msgid "  -ec --class-graph      only generates class graph\n"
+msgstr "  -ec --class-graph      создать только граф классов\n"
+
+#: src/main.cc:104
+msgid "  -ef --env FILE         read TeX environment from FILE\n"
+msgstr "  -ef --env ФАЙЛ         считать TeX окpужение из ФАЙЛа\n"
+
+#: src/main.cc:105
+msgid "  -ei --index            generate the index only\n"
+msgstr "  -ei --index            создать только оглавление\n"
+
+#: src/main.cc:106
+msgid "  -eo --style OPTION     setup TeX style OPTION\n"
+msgstr "  -eo --style ПАРАМЕТР   задать ПАРАМЕТР стиля TeX\n"
+
+#: src/main.cc:107
+msgid "  -ep --package FILE     setup TeX to use package FILE\n"
+msgstr "  -ep --package ПАКЕТ    задать дополнительный ПАКЕТ для TeX\n"
+
+#: src/main.cc:108
+msgid "  -et --title FILE       use content of FILE as TeX title page\n"
+msgstr "  -et --title ФАЙЛ       задать ФАЙЛ с заглавной страницой TeX\n"
+
+#: src/main.cc:109
+msgid "  -D  --depth DEPTH      set minimum depth (number of levels) in TOC\n"
+msgstr ""
+"  -D  --depth ГЛУБИНА    установить глубину (количество уровней) в "
+"Содержании\n"
+
+#: src/main.cc:110
+msgid "  -l  --no-env           do not generate TeX environment\n"
+msgstr "  -l  --no-env           не создавать окpужение TeX\n"
+
+#: src/main.cc:111
+msgid "  -o  --output FILE      set output file name\n"
+msgstr "  -o  --output ФАЙЛ      записать pезультат в ФАЙЛ\n"
+
+#: src/main.cc:112
+msgid "  -s  --source           generate source code listing\n"
+msgstr "  -s  --source           создать листинг текста программы\n"
+
+#: src/main.cc:113
+msgid ""
+"  -X  --hide-index       don't generate index at section start\n"
+"\n"
+msgstr ""
+"  -X  --hide-index       не создавать список в начале pаздела\n"
+"\n"
+
+#: src/main.cc:125
+#, c-format
+msgid "Ignoring option `-e%c': required argument missing\n"
+msgstr "Игнорирую параметр `-e%c': необходимый аргумент отсутвует\n"
+
+#: src/main.cc:131
+#, c-format
+msgid "Unknown option `-%c'. Try `doc++ --help'\n"
+msgstr "Неизвестный параметр `-%c'. Попробуйте `doc++ --help'\n"
+
+#: src/main.cc:133
+#, c-format
+msgid "Unknown option `-%c%c'. Try `doc++ --help'\n"
+msgstr "Неизвестный параметр `-%c%c'. Попробуйте `doc++ --help'\n"
+
+#: src/main.cc:449
+msgid "Ignoring option `--depth': bad argument specified\n"
+msgstr "Игнорирую параметр `--depth': указан невеpный аргумент\n"
+
+#: src/main.cc:469
+#, c-format
+msgid "Ignoring option `--output': cannot open file `%s'\n"
+msgstr "Игнорирую параметр `--output': не могу открыть файл `%s'\n"
+
+#: src/main.cc:537
+#, c-format
+msgid "Error opening configuration file `%s'\n"
+msgstr "Не могу открыть файл конфигуpации `%s'\n"
+
+#: src/main.cc:558
+msgid "No input files. Try `doc++ --help'\n"
+msgstr "Не заданы входные файлы. Попробуйте `doc++ --help'\n"
+
+#: src/main.cc:579
+msgid "Reading files...\n"
+msgstr "Читаю файлы...\n"
+
+#: src/main.cc:586
+#, c-format
+msgid "Error opening file list `%s'\n"
+msgstr "Не могу открыть файл со списком `%s'\n"
+
+#: src/main.cc:607
+#, c-format
+msgid "%d bytes read\n"
+msgstr "%d байт прочитано\n"
+
+#: src/main.cc:613
+msgid "Generating source code listing...\n"
+msgstr "Создаю листинг программы...\n"
+
+#: src/main.cc:616 src/main.cc:679
+msgid "Done.\n"
+msgstr "Готово.\n"
+
+#: src/main.cc:622
+msgid "Parsing...\n"
+msgstr "Обрабатываю...\n"
+
+#: src/main.cc:636
+msgid "Merging duplicate entries...\n"
+msgstr "Обьединяю повтоpяющиеся элементы...\n"
+
+#: src/main.cc:641
+msgid "Sorting entries...\n"
+msgstr "Сортирую элементы...\n"
+
+#: src/main.cc:646
+msgid "Resolving references...\n"
+msgstr "Проверяю ссылки...\n"
+
+#: src/main.cc:670
+#, c-format
+msgid "Writing GIF database file `%s'...\n"
+msgstr "Записываю файл базы данных GIFов `%s'...\n"
+
+#: src/tex2gif.cc:44
+#, c-format
+msgid "Running `%s'\n"
+msgstr "Запуск `%s'\n"
+
+#: src/tex2gif.cc:68
+#, c-format
+msgid "Processing file `%s'\n"
+msgstr "Обработка файла `%s'\n"
+
+#: src/tex2gif.cc:79
+#, c-format
+msgid "Read %d GIF record(s).\n"
+msgstr "Считано %d GIF записей.\n"
+
+#: src/tex2gif.cc:85
+#, c-format
+msgid "Can't open `%s/dxxgifs.tex' for writing\n"
+msgstr "Не могу открыть `%s/dxxgifs.tex' для записи\n"
+
+#: src/tex2gif.cc:99
+#, c-format
+msgid "Couldn't open `%s'\n"
+msgstr "Не могу открыть `%s'\n"
+
+#: src/tex2gif.cc:124
+#, c-format
+msgid "Could not open `%s'\n"
+msgstr "Не могу открыть `%s'\n"
+
+#: src/tex2gif.cc:174
+#, c-format
+msgid "Couldn't extract BoundingBox from dxx%04d.eps.\n"
+msgstr "Не могу выделить BoundingBox из dxx%04d.eps.\n"
+
+#: src/tex2gif.cc:210
+msgid "Warning: problems generating GIFs. Check file `dxxgifs.tex'.\n"
+msgstr "Внимание: проблемы с созданием GIFов. Проверьте файл `dxxgifs.tex'.\n"

@@ -1,0 +1,51 @@
+dnl configure.in for DOC++
+dnl Copyright (c) 1998-2002 Dragos Acostachioaie
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(src/main.cc)
+AC_PREFIX_DEFAULT(/usr)
+
+dnl Set versioning informations
+VERSION="3.4.10"
+
+dnl Initialize automake
+AM_INIT_AUTOMAKE(doc++, $VERSION)
+AM_CONFIG_HEADER(src/config.h)
+
+dnl Checks for the canonical system name
+AC_CANONICAL_HOST
+
+dnl Setup languages
+ALL_LINGUAS="fr ja ro ru"
+
+dnl Checks for programs.
+AC_ISC_POSIX
+AC_PROG_CC
+AC_C_CONST
+AC_C_INLINE
+AC_PROG_CXX
+AM_PROG_LEX
+AC_PROG_LN_S
+AC_LANG_CPLUSPLUS
+
+dnl Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS(getopt.h string.h strings.h)
+
+dnl Checks for library functions.
+AC_CHECK_FUNCS(getopt_long strdup strstr)
+
+dnl Set compiler flags
+CXXFLAGS=""
+
+dnl Checks if we are going to enable debugging
+AC_ARG_ENABLE(debug,
+    [  --enable-debug          Turn on debugging],
+    AC_DEFINE(DEBUG, 1, Define if you want to generate debugging informations)
+    CXXFLAGS="-g"
+)
+
+dnl Checks for gettext
+AM_GNU_GETTEXT
+
+AC_OUTPUT(Makefile src/Makefile doc/Makefile doc/manual/Makefile intl/Makefile \
+	  po/Makefile.in)
