@@ -55,7 +55,7 @@ public:
 	    return (strcmp(n1.name, n2.name) == 0);
 	    }
 
-	friend ostream& operator << (ostream& out, const Name& n)
+	friend std::ostream& operator << (std::ostream& out, const Name& n)
 	    {
 	    return out << n.name;
 	    }
@@ -149,9 +149,9 @@ public:
 
     void clear();
 
-    friend ostream& operator << (ostream& out, const NameTable& nt);
+    friend std::ostream& operator << (std::ostream& out, const NameTable& nt);
 
-    friend istream& operator >> (istream& out, NameTable& nt);
+    friend std::istream& operator >> (std::istream& out, NameTable& nt);
 
     int isConsistent() const;
 

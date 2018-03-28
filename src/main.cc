@@ -25,7 +25,7 @@
 #include "config.h"
 
 #include <assert.h>
-#include <fstream.h>
+#include <fstream>
 #include <getopt.h>
 #include <locale.h>
 #include <stdio.h>
@@ -527,9 +527,9 @@ int main(int argc, char **argv)
     if(configFile.length() > 0)
 	{
 #ifdef WIN32
-	ifstream f(configFile.c_str(), ios::nocreate|ios::in);
+    std::ifstream f(configFile.c_str(), ios::nocreate|ios::in);
 #else
-	ifstream f(configFile.c_str());
+    std::ifstream f(configFile.c_str());
 #endif
 	if(!f)
 	    {
@@ -566,7 +566,7 @@ int main(int argc, char **argv)
 	gifDB += PATH_DELIMITER;
 	gifDB += GIF_FILE_NAME;
 
-	ifstream gifFile(gifDB.c_str());
+  std::ifstream gifFile(gifDB.c_str());
 	if(gifFile)
 	    {
             gifFile >> gifs;
@@ -580,7 +580,7 @@ int main(int argc, char **argv)
 
     if(fileList.length() > 0)
 	{
-	ifstream i_file(fileList.c_str());
+    std::ifstream i_file(fileList.c_str());
 	if(!i_file)
 	    {
             fprintf(stderr, _("Error opening file list `%s'\n"), fileList.c_str());
@@ -669,7 +669,7 @@ int main(int argc, char **argv)
 	if(verb)
 	    printf(_("Writing GIF database file `%s'...\n"), gifDB.c_str());
 
-	ofstream gifFile(gifDB.c_str());
+  std::ofstream gifFile(gifDB.c_str());
 	gifFile << gifs;
 	makeGifs(outputDir.c_str(), GIF_FILE_NAME);
 	}

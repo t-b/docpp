@@ -25,7 +25,7 @@
 
 %{
 #include <assert.h>
-#include <fstream.h>
+#include <fstream>
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -720,7 +720,7 @@ static void initDocbook()
 
     if(ownHeader.length() > 0)
 	{
-	ifstream title(ownHeader.c_str());
+    std::ifstream title(ownHeader.c_str());
 
 	if(title)
 	    while(title)
@@ -729,7 +729,7 @@ static void initDocbook()
 		putc(ch, out);
 		}
 	else
-	    cerr << "could not open " << texTitle.c_str() << endl;
+	    std::cerr << "could not open " << texTitle.c_str() << std::endl;
 	}
 }
 
@@ -769,7 +769,7 @@ static void finitDocbook()
 
     if(ownFooter.length() > 0)
 	{
-	ifstream title(ownFooter.c_str());
+    std::ifstream title(ownFooter.c_str());
 	char ch;
 
 	if(title)
@@ -779,7 +779,7 @@ static void finitDocbook()
 		putc(ch, out);
 		}
 	else
-	    cerr << "could not open " << texTitle.c_str() << endl;
+	    std::cerr << "could not open " << texTitle.c_str() << std::endl;
 	}
 }
 

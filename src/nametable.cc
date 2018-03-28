@@ -65,17 +65,17 @@ void NameTable::clear()
     names.clear();
 }
 
-ostream& operator << (ostream& out, const NameTable& nt)
+std::ostream& operator << (std::ostream& out, const NameTable& nt)
 {
     for(nt.first(); nt.current(); nt.next())
 	{
-	out << nt[nt.current()] << ':';
-	out << nt.current() << char(6) << endl;
+    out << nt[nt.current()] << ':';
+    out << nt.current() << char(6) << std::endl;
 	}
     return out;
 }
 
-istream& operator >> (istream& in, NameTable& nt)
+std::istream& operator >> (std::istream& in, NameTable& nt)
 {
     int num;
     char c;

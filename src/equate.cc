@@ -23,7 +23,7 @@
 
 #include "config.h"
 
-#include <fstream.h>
+#include <fstream>
 #include <getopt.h>
 #include <iostream>
 #include <stdio.h>

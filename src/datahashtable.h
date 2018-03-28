@@ -349,20 +349,20 @@ public:
 		++tot;
 		if(!has(element[i].item))
 		    {
-		    cout << "Inconsistency detected in class DataHashTable\n";
+          std::cout << "Inconsistency detected in class DataHashTable\n";
 		    return 0;
 		    }
 		}
 
 	if(tot != thenum)
 	    {
-	    cout << "Inconsistency detected in class DataHashTable\n"; 
+        std::cout << "Inconsistency detected in class DataHashTable\n";
 	    return 0;
 	    }
 	return element.isConsistent();
 	}
 
-#ifdef DEFINE_OUTPUT_OPERATOR 
+#ifdef DEFINE_OUTPUT_OPERATOR
     /// Output operator, displays all elements currently contained in hash table
     friend ostream& operator << (ostream& out,
 				 const DataHashTable<HashItem, Info>& h)

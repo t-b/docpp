@@ -23,7 +23,7 @@
 
 %{
 #include <assert.h>
-#include <fstream.h>
+#include <fstream>
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -924,7 +924,7 @@ static void initLatex()
 
     if(texFile.length() > 0)
 	{
-	ifstream env(texFile.c_str());
+    std::ifstream env(texFile.c_str());
 	if(env)
 	    {
 	    while(env)
@@ -947,7 +947,7 @@ static void initLatex()
 		}
 	    }
 	else
-	    cerr << "could not open " << texFile.c_str() << endl;
+	    std::cerr << "could not open " << texFile.c_str() << std::endl;
 	}
     else
 	if(!noLatex)
@@ -971,7 +971,7 @@ static void initLatex()
 
     if(texTitle.length() > 0 && !noLatex)
 	{
-	ifstream title(texTitle.c_str());
+    std::ifstream title(texTitle.c_str());
 
 	if(title)
 	    while(title)
@@ -980,7 +980,7 @@ static void initLatex()
 		putc(ch, out);
 		}
 	else
-	    cerr << "could not open " << texTitle.c_str() << endl;
+	    std::cerr << "could not open " << texTitle.c_str() << std::endl;
 	}
 }
 
